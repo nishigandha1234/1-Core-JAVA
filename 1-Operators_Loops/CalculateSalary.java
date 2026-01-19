@@ -20,3 +20,16 @@ class CalculateSalary
 		double grossSalary = basicSal + hraAmount + daAmount;
 		
 		double taxSalary = basicSal + taxPercentage;
+		
+		double netSalary = grossSalary - taxSalary;
+
+		System.out.println("--- Employee Salary Details ---");
+        System.out.println("Basic Salary: " + basicSal);
+        System.out.println("HRA (10%): " + hraAmount);
+        System.out.println("DA (5%): " + daAmount);
+        System.out.println("Gross Salary: " + grossSalary);
+        System.out.println("Tax (2% of Gross): " + taxSalary);
+        System.out.println("-----------------------------");
+        System.out.println("Net Salary: " + netSalary);
+	}
+}
