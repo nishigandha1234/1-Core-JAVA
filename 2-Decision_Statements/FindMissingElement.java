@@ -3,12 +3,28 @@ import java.util.*;
 public class FindMissingElement
 {
 	public static void main(String x[])
-	{
-		int ar[] = {1,2,3,5};
-		for(int i = 0; i < ar.length(); i++)
+	{	
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter value of n: ");
+        int n = sc.nextInt();
+
+        int[] ar = new int[n - 1];
+
+        System.out.print("Enter " + (n - 1) + " elements: ");
+        
+		for(int i = 0; i < ar.length; i++)
+        {
+            ar[i] = sc.nextInt();
+        }
+		int expectedSum = n * (n+1) / 2;
+		int actualSum = 0;
+		
+		for(int i = 0; i < ar.length; i++)
 		{
-			int total += ar[i];
+			actualSum += ar[i];
 		}
-		int missing = total - ar[i];
+		int missing = expectedSum - actualSum;
+		System.out.println(missing);
 	}
 }
