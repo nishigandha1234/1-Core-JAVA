@@ -12,13 +12,13 @@ public class MaxBetnThree
 		
 		if(a > b && a > c )
 		{
-			System.out.println(a + "is Greater");
+			System.out.println(a + " is Greater");
 		}
 		else if(b > a && b > c ) {
-			System.out.println(b + "is Greater");
+			System.out.println(b + " is Greater");
 		}
 		else{
-			System.out.println(c + "is Greater");
+			System.out.println(c + " is Greater");
 		}
 	}
 }
