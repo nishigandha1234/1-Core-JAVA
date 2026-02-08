@@ -8,24 +8,27 @@ public class ArmStrongNumber
 		System.out.println("Enter the Number : ");
 		int num = sc.nextInt();
 		int temp = num , count = 0;
-		while(temp != 0)
-		{
-			count++;
+		
+		do{
+			++count;
 			temp/=10;
 		}
-		int sum = 0; temp = num;
-		while(temp!=0)
-		{
-			int rem = temp % 10;
-			int i =1 , pow  = 1;
-			while(i <= count)
-			{
+		while(temp!=0);
+		
+		temp = num; int sum = 0;
+		do{
+			int rem =temp%10;
+			int pow =1, i =1;
+			do{
 				pow*=rem;
 				i++;
 			}
-			sum+= pow;
+			while(i<=count);
+			
+			sum+=pow;
 			temp/=10;
 		}
+		while(temp!=0);
 		
 		if(sum==num) System.out.println("Armstrong");
 		else System.out.println("Not Armstrong");
