@@ -5,7 +5,7 @@ class Reverse
 	public static void main(String x[])
 	{
 		
-		int n = 12345;
+		int n = 123;
 		int rev = 0;
 		while(n != 0)
 		{
