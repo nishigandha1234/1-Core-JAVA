@@ -12,7 +12,7 @@ class Pattern15
 				}
 				else
 				{
-					System.out.print("#"+" ");
+					System.out.print("# "+" ");
 				}
 			}
 			System.out.println();

@@ -1,21 +1,18 @@
-class Pattern21
+class Pattern24 
 {
 	public static void main(String x[])
 	{
-		
-		for(int i = 1; i<=5 ; i++)
-		{   int flag =1;
-			for(int j=1 ; j<=9 ; j++)
+		for(int i = 1 ; i <= 9; i++)
+		{
+			for(int j = 1 ; j <= 9 ; j++)
 			{
-				if((i==1 || i==j || j==10-i) && flag==1)
+				if(j==5||i==5||j==6-i||j== 4+i||j==i-4||j==14-i)
 				{
 					System.out.print("* ");
-					flag = 0;
 				}
 				else
 				{
 					System.out.print("  ");
-					flag = 1;
 				}
 			}
 			System.out.println();

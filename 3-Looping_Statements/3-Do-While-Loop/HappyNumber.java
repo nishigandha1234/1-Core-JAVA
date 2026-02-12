@@ -10,18 +10,20 @@ public class HappyNumber
 		int temp = num;
 		
 		
-		while(temp != 1 && temp != 4)
+		do
 		{
 			int sum = 0;
 			
-			while(temp > 0)
+			do
 			{
 				int rem = temp%10;
 				sum += rem*rem;
 				temp/=10;
-			}
+			}while(temp > 0);
 			temp = sum;
 		}
+		while(temp != 1 && temp != 4);
+		
 		if(temp == 1) System.out.println("Happy Number");
 		else System.out.println("Not Happy Number");
 	}

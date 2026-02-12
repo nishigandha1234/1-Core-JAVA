@@ -2,17 +2,20 @@ class PatternNo18
 {
 	public static void main(String x[])
 	{
-		for(int i = 1 ; i <= 6 ; i++)
+		int flag = 1;
+		for(int i = 5 ; i >= 1 ; i--)
 		{
-			for(int j =1 ; j <= 6 ; j++)
+			for(int j = 9 ; j >= 1 ; j--)
 			{
-				if(i%2==1 || j%2 == 0)
+				if(flag == 1 && j >= 6-i && j <= 4+i)
 				{
-					System.out.print("*");
+					System.out.print("*"+" ");
+					flag = 0 ;
 				}
 				else
 				{	
-					System.out.print(" ");
+					System.out.print(" "+" ");
+					flag = 1;
 				}
 			}
 			System.out.println();
