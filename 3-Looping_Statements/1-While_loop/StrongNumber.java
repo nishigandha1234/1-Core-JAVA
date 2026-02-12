@@ -8,14 +8,18 @@ public class StrongNumber
 		System.out.println("Enter the Number : ");
 		int num = sc.nextInt();
 		int temp = num;
-		int fact = 1;
+		int sum= 0;
 		
 		while(temp != 0)
 		{
-			fact*=temp;
-			temp--;
+			int rem = temp%10;
+			int fact = 1;
+			for(int i = 1; i <= rem ; i++)
+				fact*=i;
+			sum+=fact;
+			temp/=10;
 		}
-		if(fact == temp) System.out.println(num + " is Strong Number");
+		if(sum == num) System.out.println(num + " is Strong Number");
 		else System.out.println(num + " is NOT Strong Number");
 	}
 }

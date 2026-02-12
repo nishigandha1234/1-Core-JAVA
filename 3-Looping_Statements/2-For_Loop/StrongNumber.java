@@ -6,14 +6,18 @@ class StrongNumber
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
-		int fact = 1;
 		int num = sc.nextInt();
-		
-		for(int i = num ; i > 0; i--)
+		int sum = 0;
+
+		for(int temp = num; temp != 0 ; temp/=10)
 		{
-			fact *= i;
+			int rem = temp%10;
+			int fact =1;
+			for(int i = 1 ; i <= rem ; i++)
+				fact *= i;
+			sum+=fact;
 		}
-		if(num == fact)	System.out.println("Strong Number");
+		if(sum == num)	System.out.println("Strong Number");
 		else System.out.println("NOT Strong Number");
 	}
 }
