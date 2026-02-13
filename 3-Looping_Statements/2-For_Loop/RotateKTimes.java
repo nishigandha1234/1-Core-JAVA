@@ -47,6 +47,7 @@ class RotateKTimes
 			ans/=10;
 		}
 		//System.out.println(revFirst);
+		//					3456+12	
 		System.out.println(revFirst+""+revLast);
 	}
 }
