@@ -14,6 +14,7 @@ class DissariumNumber
 			count++;
 			temp/=10;
 		}
+		
 		temp = num;
 		
 		while(temp!=0)
