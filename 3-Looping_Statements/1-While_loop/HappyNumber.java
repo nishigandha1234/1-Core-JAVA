@@ -9,7 +9,6 @@ public class HappyNumber
 		int num = sc.nextInt();
 		int temp = num;
 		
-		
 		while(temp != 1 && temp != 4)
 		{
 			int sum = 0;
