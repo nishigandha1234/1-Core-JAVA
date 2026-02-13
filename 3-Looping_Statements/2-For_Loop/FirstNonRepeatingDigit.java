@@ -7,23 +7,28 @@ public class FirstNonRepeatingDigit
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int num = sc.nextInt();
+		int temp = num;
+		int ans = -1;
 		
-		for(int i = 0; i <= 9; i++)
+		while(temp!=0)
 		{
-			int temp = num;
 			int count = 0;
+			int check = num;
+			int rem = temp%10;
 			
-			while(temp!=0)
+			while(check!=0)
 			{
-				int rem = temp%10;
-				if(rem==i)
+				if(check%10 == rem)
 					count++;
-				temp/=10;
+				check/=10;
 			}
-			if(count > 0)
+			if(count==1)
 			{
-				System.out.println(i + " : " +count);
+				ans=rem;
 			}
+			temp/=10;
 		}
+		if(ans != -1) System.out.println("Non-repeating Digit : "+ans);
+		else System.out.println("No Non-repeating Digit ");
 	}
 }
