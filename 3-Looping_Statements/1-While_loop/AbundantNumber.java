@@ -17,7 +17,8 @@ class AbundantNumber
 			}
 		}
 		System.out.println(num+" : "+sum);
-		System.out.println((sum>i) ? "AbundantNumber" : "NOT AbundantNumber"); 
+		 
+		System.out.println((sum>num) ? "AbundantNumber" : "NOT AbundantNumber"); 
 		
 	}
 }

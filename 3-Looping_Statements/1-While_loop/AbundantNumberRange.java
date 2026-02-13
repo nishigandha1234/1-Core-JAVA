@@ -6,20 +6,20 @@ class AbundantNumberRange
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
-		int n = sc.nextInt();
-		int sum = 0;
-		
-		for(int i = 1 ; i<=n ; i++)
+		int n=sc.nextInt();
+		for(int j=1;j<n;j++)
 		{
-			int num = i;
-			for(int j = 2 ; j < num ; j++)
+			int num = j;
+			int sum = 0;
+	
+			for(int i = 1 ; i < num ; i++)
 			{
-				if(num%j==0)
+				if(num%i==0)
 				{
-					sum+=j;
+					sum+=i;
 				}
 			}
-			if(sum > num) System.out.print(num+ " "); 
+			System.out.print((sum>num) ? " "+num:""); 
 		}
 	}
 }
