@@ -7,21 +7,21 @@ public class HappyNumber
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int num = sc.nextInt();
-		int temp = num;
+		int temp = num; //19
 		
-		while(temp != 1 && temp != 4)
+		while(temp != 1 && temp != 4) 
 		{
-			int sum = 0;
+			int sum = 0; 
 			
-			while(temp > 0)
+			while(temp != 0) //100!=0
 			{
-				int rem = temp%10;
-				sum += rem*rem;
-				temp/=10;
+				int rem = temp%10; //0
+				sum += rem*rem; //sum=1
+				temp/=10; 
 			}
-			temp = sum;
+			temp = sum; //temp = 1
 		}
-		if(temp == 1) System.out.println("Happy Number");
+		if(temp == 1) System.out.println("Happy Number"); 
 		else System.out.println("Not Happy Number");
 	}
 }
