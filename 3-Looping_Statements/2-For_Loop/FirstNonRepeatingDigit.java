@@ -6,23 +6,23 @@ public class FirstNonRepeatingDigit
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
-		int num = sc.nextInt();
-		int temp = num;
+		int num = sc.nextInt(); //1213
+		int temp = num; 
 		int ans = -1;
 		
-		while(temp!=0)
+		while(temp!=0) 
 		{
 			int count = 0;
-			int check = num;
-			int rem = temp%10;
+			int check = num; //1213
+			int rem = temp%10; //3
 			
-			while(check!=0)
+			while(check != 0) 
 			{
 				if(check%10 == rem)
-					count++;
+					count++; //4
 				check/=10;
 			}
-			if(count==1)
+			if(count==1) 
 			{
 				ans=rem;
 			}

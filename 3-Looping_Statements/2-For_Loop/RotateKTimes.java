@@ -17,7 +17,7 @@ class RotateKTimes
 			rev = rev*10+(temp%10);
 			temp/=10;
 		}
-		System.out.println(rev);
+		System.out.println(rev);//654321
 		
 		//find value of k & pow it k=2 
 		//	i=1		   2<=2
@@ -36,18 +36,19 @@ class RotateKTimes
 			revLast = revLast*10 + dig;
 			res/=10; 
 		}
-		//System.out.println(revLast);
+		//System.out.println(revLast);//12
 		
 		int revFirst = 0;
-		int ans = rev/pow;
+		int ans = rev/pow;//6543
 		while(ans != 0)
 		{
 			int digit = ans%10;
 			revFirst = revFirst*10 + digit;
 			ans/=10;
 		}
-		//System.out.println(revFirst);
-		//					3456+12	
-		System.out.println(revFirst+""+revLast);
+		//System.out.println(revFirst);//3456
+		//					3456+12
+         revFirst=revFirst*pow+revLast;
+		System.out.println(revFirst);
 	}
 }
