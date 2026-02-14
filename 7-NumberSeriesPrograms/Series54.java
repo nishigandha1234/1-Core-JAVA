@@ -11,9 +11,9 @@ class Series54
 		int num = 1;
 		for(int i = 1 ; i<= n ; i++)
 		{
-			num += diff;
-			System.out.print(num+" ");
-			diff++;
+			num += diff; 
+			System.out.print(num+" "); //1
+			diff++; //2
 		}
 	}
 }

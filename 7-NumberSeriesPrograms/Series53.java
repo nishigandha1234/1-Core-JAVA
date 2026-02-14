@@ -10,7 +10,7 @@ class Series53
 		int n = sc.nextInt();
 		for(int i =1 ; i <= n ;i++)
 		{
-			System.out.print((int) Math.pow(i, 2) +" ");
+			System.out.print((int)Math.pow(i, 2)+" ");
 		}
 	}
 }
