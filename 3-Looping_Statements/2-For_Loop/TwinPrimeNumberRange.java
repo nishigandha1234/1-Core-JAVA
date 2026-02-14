@@ -37,7 +37,7 @@ class TwinPrimeNumberRange
 				}
 			}
 			if( isPrime1 && isPrime2 && (n2-n1==2) )
-				System.out.println(n1 + ", " + n2 + " are Twin Primes");
+				System.out.println("("+n1 + ", " + n2 +")");
 		}
 	}
 }
