@@ -1,7 +1,9 @@
-//1 4 3 8 5 12 7 16 ?
+//2 5 10 17 26 37 ?
+// 3  5  7  9
 
 import java.util.*;
-class Series63
+
+class Series64
 {
 	public static void main(String x[])
 	{
@@ -9,13 +11,13 @@ class Series63
 		System.out.println("Enter the Range : ");
 		int n = sc.nextInt();
 		
-		int num = 4;
-		int odd =1;
-		for(int i = 1 ; i<=n; i++)
+		int num = 2;
+		int diff = 3;
+		for(int i =1 ; i<= n ; i++)
 		{
-			System.out.print(odd+" "+num+" ");
-			num+=4;
-			odd+=2;
+			System.out.print(num+" ");
+			num+=diff;
+			diff+=2;
 		}
 	}
 }

@@ -20,7 +20,7 @@ class TwinPrimeNumberRange
 			if(n2<=1)
 				isPrime2 = false;
 		
-			for(int i = 2 ; i<= n1/2 ; i++)
+			for(int i = 2 ; i<= Math.sqrt(n1) ; i++)
 			{
 				if(n1%i==0)
 				{
@@ -28,7 +28,7 @@ class TwinPrimeNumberRange
 					break;
 				}
 			}
-			for(int i = 2 ; i<= n2/2 ; i++)
+			for(int i = 2 ; i<= Math.sqrt(n2); i++)
 			{
 				if(n2%i==0)
 				{
