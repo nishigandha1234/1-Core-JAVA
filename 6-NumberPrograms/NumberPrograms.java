@@ -66,6 +66,7 @@ class NumberPrograms
 					square/=10;
 				}
 				System.out.println("NOT Automorphic Number");
+				break;
 			}
 			case 3 :
 			{
@@ -88,6 +89,8 @@ class NumberPrograms
 				}
 				if(temp ==1) System.out.println("Happy Number");
 				else 		 System.out.println("NOT Happy Number");
+				
+				break;
 			}
 		}
 	}

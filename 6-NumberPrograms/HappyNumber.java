@@ -13,13 +13,13 @@ public class HappyNumber
 		{
 			int sum = 0; 
 			
-			while(temp != 0) //100!=0
+			while(temp != 0) //68!=0
 			{
-				int rem = temp%10; //0
-				sum += rem*rem; //sum=1
-				temp/=10; 
+				int rem = temp%10; //8
+				sum += rem*rem; //sum=
+				temp/=10; //
 			}
-			temp = sum; //temp = 1
+			temp = sum; //temp = 68
 		}
 		if(temp == 1) System.out.println("Happy Number"); 
 		else System.out.println("Not Happy Number");
