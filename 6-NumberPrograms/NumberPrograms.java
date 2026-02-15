@@ -91,6 +91,10 @@ class NumberPrograms
 				else 		 System.out.println("NOT Happy Number");
 				break;
 			}
+			case 4 : 
+			{
+				
+			}
 		}
 	}
 }
