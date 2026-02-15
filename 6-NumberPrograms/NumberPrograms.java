@@ -69,23 +69,25 @@ class NumberPrograms
 			}
 			case 3 :
 			{
-				System.out.println("Welcome to Automorphic Number : ");
+				System.out.println("Welcome to Happy Number : ");
 				System.out.println("Enter the Number : ");
-				int num = sc.nextInt(); //5
+				int num = sc.nextInt(); //19 =
 				int square = num*num; //25  
 				int temp = num;
 				
-				while(square != 0)
+				while(temp != 1 && temp != 4) //19 = 
 				{
-					if(temp%10 == square%10)
+					int sum = 0;
+					while(temp != 0)
 					{
-						System.out.println("Automorphic Number");
-						return;
+						int rem = temp%10;
+						sum+=rem*rem;
+						temp/=10;
 					}
-					temp/=10;
-					square/=10;
+					temp = sum;
 				}
-				System.out.println("NOT Automorphic Number");
+				if(temp ==1) System.out.println("Happy Number");
+				else 		 System.out.println("NOT Happy Number");
 			}
 		}
 	}
