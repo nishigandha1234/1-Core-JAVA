@@ -68,7 +68,7 @@ class NumberPrograms
 				System.out.println("Welcome to Automorphic Number : ");
 				System.out.println("Enter the Number : ");
 				int num = sc.nextInt();
-				int square = num*num;
+				int square = ;
 				int temp = num;
 				while(
 				{
