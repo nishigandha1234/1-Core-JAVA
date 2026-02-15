@@ -70,12 +70,10 @@ class NumberPrograms
 				int num = sc.nextInt();
 				int square = num*num;
 				int temp = num;
-				while(
+				
+				while(temp%10 == 0 && square%10)
 				{
-					while(temp%10 == 0 && square%10)
-					{
-						System.out.println("Automorphic Number");
-					}
+					System.out.println("Automorphic Number");
 				}
 				System.out.println("NOT Automorphic Number");
 			}
