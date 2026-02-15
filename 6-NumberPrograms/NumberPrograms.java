@@ -61,7 +61,7 @@ class NumberPrograms
 						System.out.println("Automorphic Number");
 					}
 				}
-				System.out.println("NOT Automorphic Number");
+				System.out.println(" Automorphic Number");
 			}
 		}
 	}
