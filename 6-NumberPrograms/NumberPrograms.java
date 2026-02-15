@@ -51,17 +51,42 @@ class NumberPrograms
 			{
 				System.out.println("Welcome to Automorphic Number : ");
 				System.out.println("Enter the Number : ");
-				int num = sc.nextInt();
-				int square = num*num;
+				int num = sc.nextInt(); //5
+				int square = num*num; //25  
 				int temp = num;
 				
-				while(temp%10 == 0 && square%10)
+				while(square != 0)
 				{
-					System.out.println("Automorphic Number");
+					if(temp%10 == square%10)
+					{
+						System.out.println("Automorphic Number");
+						return;
+					}
+					temp/=10;
+					square/=10;
 				}
 				System.out.println("NOT Automorphic Number");
 			}
-
+			case 3 :
+			{
+				System.out.println("Welcome to Automorphic Number : ");
+				System.out.println("Enter the Number : ");
+				int num = sc.nextInt(); //5
+				int square = num*num; //25  
+				int temp = num;
+				
+				while(square != 0)
+				{
+					if(temp%10 == square%10)
+					{
+						System.out.println("Automorphic Number");
+						return;
+					}
+					temp/=10;
+					square/=10;
+				}
+				System.out.println("NOT Automorphic Number");
+			}
 		}
 	}
 }
