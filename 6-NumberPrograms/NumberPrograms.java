@@ -89,7 +89,6 @@ class NumberPrograms
 				}
 				if(temp ==1) System.out.println("Happy Number");
 				else 		 System.out.println("NOT Happy Number");
-				
 				break;
 			}
 		}
