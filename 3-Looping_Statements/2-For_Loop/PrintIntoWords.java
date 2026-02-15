@@ -10,21 +10,20 @@ class PrintIntoWords
 		int rev = 0;
 		int temp = num;
 		
-		while(temp!=0)
+		while(temp!=0) //123
 		{
-			rev = rev*10 + temp%10;
+			rev = rev*10+(temp%10); //321
 			temp/=10;
 		}
-		
 		if(num==0)
 		{
 			System.out.println("Zero");
 			return;
 		}
 		
-		while(rev > 0)
+		while(rev != 0) //321
 		{
-			int digit = rev%10;
+			int digit = rev%10; //1
 			
 			switch(digit)
 			{

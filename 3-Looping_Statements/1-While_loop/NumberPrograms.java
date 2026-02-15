@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class NumberPrograms 
+{
+	public static void main(String x[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your Choice from Below : ");
+		
+		System.out.println("1. Harshad Number : ");
+		System.out.println("2. Automorphic Number : ");
+		System.out.println("3. Happy Number : ");
+		System.out.println("4. Armstrong Number : ");
+		System.out.println("5. Strong Number : ");
+		System.out.println("6. Neon Number : ");
+		System.out.println("7. Pronic Number : ");
+		System.out.println("8. Perfect Number : ");
+		System.out.println("9. Duck Number : ");
+		System.out.println("10.Spy Number : ");
+		System.out.println("11.Prime Number : ");
+		System.out.println("12.Kaprekar Number : ");
+		System.out.println("13.Disarium Number : ");
+		System.out.println("14.Abundant Number : ");
+		System.out.println("15.Krishnamurthy  Number : ");
+		
+		int choice = sc.nextInt();
+		
+		switch(choice)
+		{
+			case 1 :
+			{
+				
+			}
+		}
+	}
+}

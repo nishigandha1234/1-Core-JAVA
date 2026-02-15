@@ -15,6 +15,7 @@ class DissariumNumber
 			temp/=10;
 		}
 		temp = num;
+		
 		while(temp!=0)
 		{
 			int rem = temp%10;

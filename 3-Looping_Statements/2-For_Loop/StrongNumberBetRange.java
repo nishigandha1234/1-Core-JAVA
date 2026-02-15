@@ -7,7 +7,6 @@ class StrongNumberBetRange
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Range : ");
 		int n = sc.nextInt();
-	
 		for(int i = 1;i<=n;i++)
 		{
 			int temp = i;

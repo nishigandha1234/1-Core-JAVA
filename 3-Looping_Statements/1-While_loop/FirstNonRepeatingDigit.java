@@ -9,7 +9,6 @@ public class FirstNonRepeatingDigit
 		int num = sc.nextInt(); //1213
 		int temp = num; 
 		int ans = -1;
-		
 		while(temp!=0) 
 		{
 			int count = 0;
