@@ -63,6 +63,22 @@ class NumberPrograms
 				}
 				System.out.println("NOT Automorphic Number");
 			}
+			case 3 :
+			{
+				System.out.println("Welcome to Automorphic Number : ");
+				System.out.println("Enter the Number : ");
+				int num = sc.nextInt();
+				int square = num*num;
+				int temp = num;
+				while(
+				{
+					while(temp%10 == 0 && square%10)
+					{
+						System.out.println("Automorphic Number");
+					}
+				}
+				System.out.println("NOT Automorphic Number");
+			}
 		}
 	}
 }
