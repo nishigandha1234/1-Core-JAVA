@@ -275,6 +275,35 @@ class NumberProgramsUsingSwitch
 				System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
 				break;
 			}
+			case 13 : 
+			{
+				System.out.println("Welcome to Disarium Number : "); 
+				System.out.println("Enter the Number : ");  
+				int num = sc.nextInt(); //135
+				int square = num*num; //88209
+				int count = 0;
+				int temp = num;
+				
+				while(temp != 0)
+				{
+					count++; //3
+					temp/=10; 
+				}
+				int pow =1;
+				for(int i = 1 ; i <= count ; i++) 
+				{			
+					pow*=10; //1000
+				}
+				
+				int fhalf = square/pow; //88
+				int shalf = square%pow; //209
+	
+				int sum = fhalf+shalf;
+				System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
+				break;
+			}
+			
+			
 		}
 	}
 }
