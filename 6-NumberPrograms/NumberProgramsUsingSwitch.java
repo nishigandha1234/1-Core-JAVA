@@ -293,14 +293,42 @@ class NumberProgramsUsingSwitch
 				while(count != 0) //2!=0
 				{
 					int pow = 1;
-					int rem = temp%10; //5
-					//				3<=3
+					int rem = temp%10; 
 					for(int j = 1 ; j <= count ; j++)
 					{
-						pow*=rem; //125
+						pow*=rem; //125, 9 ,1
 					}
-					System.out.println(pow);
-					sum+=pow; // 125
+					sum+=pow; // 135
+					count--;
+					temp/=10;
+				}
+				System.out.println(sum == num ? "Disarium Number" : "NOT Disarium Number");
+				break;
+			}
+			case 14 : 
+			{
+				System.out.println("Welcome to Abundant Number : "); 
+				System.out.println("Enter the Number : ");  
+				int num = sc.nextInt(); //135
+				int temp = num;
+				int count = 0;
+				while(temp != 0)
+				{
+					count++; //3
+					temp/=10; 
+				}
+				
+				temp = num; //temp =135
+				int sum = 0;
+				while(count != 0) //2!=0
+				{
+					int pow = 1;
+					int rem = temp%10; 
+					for(int j = 1 ; j <= count ; j++)
+					{
+						pow*=rem; //125, 9 ,1
+					}
+					sum+=pow; // 135
 					count--;
 					temp/=10;
 				}
