@@ -280,9 +280,8 @@ class NumberProgramsUsingSwitch
 				System.out.println("Welcome to Disarium Number : "); 
 				System.out.println("Enter the Number : ");  
 				int num = sc.nextInt(); //135
-			
-				int count = 0;
 				int temp = num;
+				int count = 0;
 				
 				while(temp != 0)
 				{
