@@ -341,14 +341,25 @@ class NumberProgramsUsingSwitch
 			{
 				System.out.println("Welcome to Krishnamurthy Number  : "); 
 				System.out.println("Enter the Number : ");  
-				int num = sc.nextInt(); //12
+				int num = sc.nextInt(); //145
 				int sum = 0;
-				for(int i = 1; i < num ; i++)
+				while(temp!=0)
 				{
-					if(num%i==0)
+					count++; //3
+					temp/=10;
+				}
+				temp = num;
+				while(temp!=0) //145
+				{
+					int fact = 1;
+					int rem = temp%10; //5
+					//				5<=5
+					for(int i = 1; i <= rem ; i++)
 					{
-						sum+=i;
+						fact*=rem; //5
+						rem--;
 					}
+					temp/=10;
 				}
 				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
 				break;
