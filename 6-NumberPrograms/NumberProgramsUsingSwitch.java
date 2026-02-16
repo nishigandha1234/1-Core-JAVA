@@ -311,7 +311,7 @@ class NumberProgramsUsingSwitch
 				System.out.println("Enter the Number : ");  
 				int num = sc.nextInt(); //12
 				int sum = 0;
-				for(int i = 1; i<num ; i++)
+				for(int i = 1; i < num ; i++)
 				{
 					if(num%i==0)
 					{
