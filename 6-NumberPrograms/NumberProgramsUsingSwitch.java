@@ -312,11 +312,6 @@ class NumberProgramsUsingSwitch
 				int num = sc.nextInt(); //135
 				int temp = num;
 				int count = 0;
-				while(temp != 0)
-				{
-					count++; //3
-					temp/=10; 
-				}
 				
 				temp = num; //temp =135
 				int sum = 0;
