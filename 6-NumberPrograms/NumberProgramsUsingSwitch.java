@@ -290,18 +290,19 @@ class NumberProgramsUsingSwitch
 				int pow = 1;
 				temp = num; //temp =135
 				int sum = 0;
-				while(count != 0) //3!=0
+				while(count != 0) //2!=0
 				{
 					
 					int rem = temp%10; //5
-					//				2<=3
+					//				3<=3
 					for(int j = 1 ; j <= count ; j++)
 					{
-						pow*=rem; //25
+						pow*=rem; //125
 					}
 					System.out.println(pow);
-					sum+=pow; //
+					sum+=pow; // 125
 					count--;
+					temp/=10;
 				}
 				System.out.println(sum );
 				//System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
