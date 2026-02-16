@@ -343,6 +343,7 @@ class NumberProgramsUsingSwitch
 				System.out.println("Enter the Number : ");  
 				int num = sc.nextInt(); //145
 				int sum = 0;
+				int temp = num;
 				while(temp!=0)
 				{
 					count++; //3
@@ -353,7 +354,7 @@ class NumberProgramsUsingSwitch
 				{
 					int fact = 1;
 					int rem = temp%10; //5
-					//				5<=5
+					//				1<=5
 					for(int i = 1; i <= rem ; i++)
 					{
 						fact*=rem; //5
