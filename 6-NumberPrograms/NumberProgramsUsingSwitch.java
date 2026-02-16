@@ -337,7 +337,7 @@ class NumberProgramsUsingSwitch
 				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
 				break;
 			}	
-			case 14 : 
+			case 15 : 
 			{
 				System.out.println("Welcome to Abundant Number : "); 
 				System.out.println("Enter the Number : ");  
