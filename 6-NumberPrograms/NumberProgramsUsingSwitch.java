@@ -339,7 +339,7 @@ class NumberProgramsUsingSwitch
 			}	
 			case 15 : 
 			{
-				System.out.println("Welcome to Abundant Number : "); 
+				System.out.println("Welcome to Krishnamurthy Number : "); 
 				System.out.println("Enter the Number : ");  
 				int num = sc.nextInt(); //12
 				int sum = 0;
