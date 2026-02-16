@@ -287,12 +287,12 @@ class NumberProgramsUsingSwitch
 					count++; //3
 					temp/=10; 
 				}
-				int pow = 1;
+				
 				temp = num; //temp =135
 				int sum = 0;
 				while(count != 0) //2!=0
 				{
-					
+					int pow = 1;
 					int rem = temp%10; //5
 					//				3<=3
 					for(int j = 1 ; j <= count ; j++)
@@ -304,8 +304,7 @@ class NumberProgramsUsingSwitch
 					count--;
 					temp/=10;
 				}
-				System.out.println(sum );
-				//System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
+				System.out.println(sum == num ? "Disarium Number" : "NOT Disarium Number");
 				break;
 			}
 			
