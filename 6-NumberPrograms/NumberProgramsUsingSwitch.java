@@ -321,8 +321,38 @@ class NumberProgramsUsingSwitch
 				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
 				break;
 			}
-			
-			
+			case 14 : 
+			{
+				System.out.println("Welcome to Abundant Number : "); 
+				System.out.println("Enter the Number : ");  
+				int num = sc.nextInt(); //12
+				int sum = 0;
+				for(int i = 1; i < num ; i++)
+				{
+					if(num%i==0)
+					{
+						sum+=i;
+					}
+				}
+				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
+				break;
+			}	
+			case 14 : 
+			{
+				System.out.println("Welcome to Abundant Number : "); 
+				System.out.println("Enter the Number : ");  
+				int num = sc.nextInt(); //12
+				int sum = 0;
+				for(int i = 1; i < num ; i++)
+				{
+					if(num%i==0)
+					{
+						sum+=i;
+					}
+				}
+				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
+				break;
+			}	
 		}
 	}
 }
