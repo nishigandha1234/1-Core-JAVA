@@ -360,9 +360,10 @@ class NumberProgramsUsingSwitch
 						fact*=rem; //5
 						rem--;
 					}
+					sum+=fact;
 					temp/=10;
 				}
-				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
+				System.out.println(sum == num ? "Krish Number" : "NOT Krish Number");
 				break;
 			}	
 		}
