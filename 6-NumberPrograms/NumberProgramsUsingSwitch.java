@@ -282,23 +282,29 @@ class NumberProgramsUsingSwitch
 				int num = sc.nextInt(); //135
 				int temp = num;
 				int count = 0;
-				
 				while(temp != 0)
 				{
 					count++; //3
 					temp/=10; 
 				}
-				int pow =1;
-				for(int i = 1 ; i <= count ; i++) 
-				{			
-					pow*=10; //1000
+				int pow = 1;
+				temp = num; //temp =135
+				int sum = 0;
+				while(count != 0) //3!=0
+				{
+					
+					int rem = temp%10; //5
+					//				2<=3
+					for(int j = 1 ; j <= count ; j++)
+					{
+						pow*=rem; //25
+					}
+					System.out.println(pow);
+					sum+=pow; //
+					count--;
 				}
-				
-				int fhalf = square/pow; //88
-				int shalf = square%pow; //209
-	
-				int sum = fhalf+shalf;
-				System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
+				System.out.println(sum );
+				//System.out.println(sum == num ? "Kaprekar Number" : "NOT Kaprekar Number");
 				break;
 			}
 			
