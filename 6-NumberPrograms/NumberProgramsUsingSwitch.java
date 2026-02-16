@@ -309,25 +309,16 @@ class NumberProgramsUsingSwitch
 			{
 				System.out.println("Welcome to Abundant Number : "); 
 				System.out.println("Enter the Number : ");  
-				int num = sc.nextInt(); //135
-				int temp = num;
-				int count = 0;
-				
-				temp = num; //temp =135
+				int num = sc.nextInt(); //12
 				int sum = 0;
-				while(count != 0) //2!=0
+				for(int i = 1; i<num ; i++)
 				{
-					int pow = 1;
-					int rem = temp%10; 
-					for(int j = 1 ; j <= count ; j++)
+					if(num%i==0)
 					{
-						pow*=rem; //125, 9 ,1
+						sum+=i;
 					}
-					sum+=pow; // 135
-					count--;
-					temp/=10;
 				}
-				System.out.println(sum == num ? "Disarium Number" : "NOT Disarium Number");
+				System.out.println(sum > num ? "Abundant Number" : "NOT Abundant Number");
 				break;
 			}
 			
