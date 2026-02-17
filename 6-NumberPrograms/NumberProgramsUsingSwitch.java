@@ -326,14 +326,8 @@ class NumberProgramsUsingSwitch
 				System.out.println("Welcome to Krishnamurthy Number  : "); 
 				System.out.println("Enter the Number : ");  
 				int num = sc.nextInt(); //145
-				int sum = 0;
+				int sum = 0 ;
 				int temp = num;
-				while(temp!=0)
-				{
-					count++; //3
-					temp/=10;
-				}
-				temp = num;
 				while(temp!=0) //145
 				{
 					int fact = 1;
