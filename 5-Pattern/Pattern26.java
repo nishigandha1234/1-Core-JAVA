@@ -13,7 +13,6 @@ class Pattern26
 				else
 				{
 					System.out.print("  ");
-				}
 			}
 			System.out.println();
 		}
