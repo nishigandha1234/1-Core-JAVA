@@ -14,7 +14,7 @@ class Pattern54
 					flag = 0;
 				}	
 				else
-				{
+				
 					System.out.print(" "+" ");
 					flag = 1;
 			}
