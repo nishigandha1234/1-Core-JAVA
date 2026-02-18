@@ -12,7 +12,6 @@ class Pattern54
 				{
 					System.out.print(i+ " ");
 					flag = 0;
-				}	
 				else
 					System.out.print(" "+" ");
 					flag = 1;
