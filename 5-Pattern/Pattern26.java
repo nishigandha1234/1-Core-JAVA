@@ -7,7 +7,6 @@ class Pattern26
 			for(int j = 1 ; j<=7 ;j++)
 			{
 				if(i==j || j == 8-i || j <= i-1)
-				{
 					System.out.print("* ");
 				else
 					System.out.print("  ");
