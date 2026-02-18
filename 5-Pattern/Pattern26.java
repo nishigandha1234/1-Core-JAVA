@@ -9,7 +9,6 @@ class Pattern26
 				if(i==j || j == 8-i || j <= i-1)
 				{
 					System.out.print("* ");
-				}
 				else
 					System.out.print("  ");
 			}
