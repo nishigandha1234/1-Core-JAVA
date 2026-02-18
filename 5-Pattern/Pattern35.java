@@ -16,7 +16,6 @@ class Pattern35
 					System.out.print(" ");
 			}
 			System.out.println();
-			
 			n1--;
 		}
 	}

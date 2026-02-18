@@ -4,19 +4,12 @@ class Pattern41
 	{
 		for(int i = 1 ; i <= 5 ; i++)
 		{
-			
-			for(int j = 1 ; j <= 5 ; j++)
-			{
-				if((j<=i && i<=3) || (i>3 && j<=i-3))
-				{
-					System.out.print(j);
-				}
-				else
-				{
-					System.out.print("  ");
-				}
-			}
-			System.out.println();
+            if(i==1 || i==5)
+                System.out.println("1");
+            else if(i==2 || i==4)
+                System.out.println("3 3");
+            else
+               System.out.println("5 5 5 5 5");
 		}
 	}
 }

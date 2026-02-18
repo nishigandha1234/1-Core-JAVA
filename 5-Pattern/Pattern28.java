@@ -7,7 +7,7 @@ class Pattern28
 		{
 			for(int j = 1 ; j <= 9 ; j++)
 			{
-				if((flag==1)&&(j>=6-i&&j<=4+i)&&(i<=5) || (flag==1)&&(j>=i-4&&)&&(i>=6))
+				if((flag==1)&&(j>=6-i&&j<=4+i)&&(i<=5)||(flag==1)&&(j>=i-4)&&(i>=6))
 				{
 					System.out.print("* "+" ");
 					flag = 0;

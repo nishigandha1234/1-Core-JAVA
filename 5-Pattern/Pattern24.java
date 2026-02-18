@@ -6,7 +6,7 @@ class Pattern24
 		{
 			for(int j = 1 ; j <= 9 ; j++)
 			{
-				if(j==5||i==5||j==6-i||j== 4+i||j==i-4||j==14-i)
+				if(j==5||i==5||j==6-i||j==4+i||j==i-4||j==14-i)
 				{
 					System.out.print("* ");
 				}
