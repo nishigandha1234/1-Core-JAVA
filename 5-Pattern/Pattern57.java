@@ -6,7 +6,17 @@ class Pattern57
 		{
 			for(int j = 1 ; j<=9 ; j++)
 			{
-				
+				if(i==5)
+				{
+					System.out.print(i+" ");
+				}
+				else if(j>=6-i && j <= 3 +i)
+				{
+					System.out.print("1"+" ");
+				}
+				else{
+					System.out.print(" ");
+				}
 			}
 		}
 	}
