@@ -10,9 +10,9 @@ class Pattern55
 				if(j >= 5-num && j<= 3+num)
 				{
 					if(j <= 4)
-						System.out.print((j-(5-num) + 1) + " ");
+						System.out.print((j-(5-num)+1) + " ");
 					else
-						System.out.print(((3+num)- j + 1) + " ");
+						System.out.print(((3+num)-j+1) + " ");
 				}
 				else
 				{

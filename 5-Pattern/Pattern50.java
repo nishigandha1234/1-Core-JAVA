@@ -7,7 +7,7 @@ class Pattern50
 		int num = i <= 4 ? i : 8-i ;
 		for(int j = 1 ; j <= 4 ; j++)
 		{
-			if(j >= 5-num && j<= 3+num)
+			if(j >= 5-num )
 			{
 				System.out.print(num+" ");
 			}
