@@ -6,8 +6,9 @@ class Pattern50
 		{
 			if(j == 5-i)
 			{
-				System.out.print(
+				System.out.print(i+" ");
 			}
 		}
+		System.out.println();
 	}
 }
