@@ -6,7 +6,7 @@ class Pattern56
 		{
 			for(int j = 1 ;  j <= 9 ; j++)
 			{
-				if(j >= 5-i && j<= 3+i)
+				if(j >= 6-i && j<= 4+i)
 				{
 					System.out.print(i+" ");
 				}

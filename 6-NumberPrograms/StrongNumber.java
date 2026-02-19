@@ -13,6 +13,7 @@ public class StrongNumber
 		while(temp != 0)
 		{
 			int rem = temp%10;
+			
 			int fact = 1;
 			for(int i = 1; i <= rem ; i++)
 				fact*=i;
