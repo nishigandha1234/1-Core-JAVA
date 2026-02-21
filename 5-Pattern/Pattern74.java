@@ -7,7 +7,7 @@ class Pattern74
 		
 		
 		
-		
-		
+	
+	
 	}
 }
