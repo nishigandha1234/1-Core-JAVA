@@ -4,11 +4,14 @@ class Pattern65
 	{
 		for(int i = 1 ; i <= 5 ; i++)
 		{
-			char ch = (char)('A' + (i-1));
+			
 			for(int j = 1 ; j <= 5 ; j++)
 			{
+				char ch = (char)('A' + (5-j));
 				if(j>=6-i)
-					System.out.print(ch+" ");
+					System.out.print(ch +" ");
+				else
+					System.out.print("  ");
 			}
 			System.out.println();
 		}
