@@ -1,4 +1,4 @@
-class Pattern72
+class Pattern72
 {
 	public static void main(String x[])
 	{

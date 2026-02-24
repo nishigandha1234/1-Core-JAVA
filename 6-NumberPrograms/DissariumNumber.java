@@ -24,7 +24,7 @@ class DissariumNumber
 			{
 				pow*=rem;
 			}
-			sum=sum+pow;
+			sum+=pow;
 			temp/=10;
 			count--;
 		}
