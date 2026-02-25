@@ -7,7 +7,8 @@ class CommandLineArgument
 		if(a%2 == 0)
 			System.out.println("Even");
 		else
-			System.out.println("Od");
+			System.out.println("Odd");
+			System.out.println("Odd");
 		
 	}
 }
