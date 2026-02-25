@@ -7,7 +7,7 @@ class CLI
 		if(a%2 == 1)
 			System.out.println("Odd");
 		else
-			System.out.println("Even ");
+			System.out.println("Even");
 		
 	}
 }
