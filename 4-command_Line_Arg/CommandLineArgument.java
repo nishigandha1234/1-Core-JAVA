@@ -8,7 +8,6 @@ class CommandLineArgument
 			System.out.println("Even");
 		else
 			System.out.println("Odd");
-			System.out.println("Odd");
 		
 	}
 }
