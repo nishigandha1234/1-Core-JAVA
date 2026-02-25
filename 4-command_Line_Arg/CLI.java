@@ -4,8 +4,8 @@ class CLI
 	{
 		int a = Integer.parseInt(x[0]);
 		
-		if(a%2 == 0)
-			System.out.println("Even");
+		if(a%2 == 1)
+			System.out.println("Odd");
 		else
 			System.out.println("Odd");
 		
