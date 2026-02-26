@@ -4,8 +4,12 @@ public class CountSymmetricInt
 {
 	public static void main(String x[])
 	{
-		int n = 100;
-		for(int i =1 ; i<=n ; i++)
+		
+	}
+    public int countSymmetricIntegers(int low, int high) 
+	{
+		int n = 1230;
+		for(int i =1200 ; i<=n ; i++)
 		{
 			int num = i, count = 0;
 			int temp = num;
@@ -35,19 +39,8 @@ public class CountSymmetricInt
 				sSum += sRem;
 				sec/=10;
 			}
-			System.out.println(fSum == sSum ? num : "");
-		}
-	}
-	/*
-    public int countSymmetricIntegers(int low, int high) 
-	{
-		for(low = 1 ; low <= high ; low++)
-		{
-			if(low < high)
-			{
-				
-			}
+			System.out.print(fSum == sSum ? num+" " : "");
 		}
         return low, high;
-    }/*
+    }
 }
