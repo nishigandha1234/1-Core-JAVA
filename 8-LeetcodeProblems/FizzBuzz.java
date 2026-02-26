@@ -8,7 +8,6 @@ public class FizzBuzz
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number : ");
 		int n = sc.nextInt();
-	
 		String[] s = new String[n];
 		
 		for(int i = 1 ; i<=n ; i++)
