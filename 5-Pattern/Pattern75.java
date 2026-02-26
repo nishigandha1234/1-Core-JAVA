@@ -6,7 +6,7 @@ public class Pattern75
 		{
 			for (int s = 1; s <= 5 - i; s++) 
 			{
-                System.out.print("    ");   // 4 spaces
+                System.out.print("   ");   // 4 spaces
             }
 			if(i%2 == 1) 
 			{
