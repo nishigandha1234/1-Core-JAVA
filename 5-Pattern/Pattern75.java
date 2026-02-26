@@ -13,12 +13,12 @@ public class Pattern75
 				char ch = 'A';
 				for(int j=1 ; j <= i ; j++)//for increasing
 				{
-					System.out.print(ch++ + " ");
+					System.out.print(ch++ + "  ");
 				}
 				ch-=2;
 				for(int j=1 ; j < i ; j++)//for decreasing
 				{
-					System.out.print(ch-- + " ");
+					System.out.print(ch-- + "  ");
 				}						
 			}
 			else
