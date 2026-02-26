@@ -11,12 +11,12 @@ public class Pattern75
 			if(i%2 == 1) 
 			{
 				char ch = 'A';
-				for(int j=1 ; j >= i ; j++)//for increasing
+				for(int j=1 ; j <= i ; j++)//for increasing
 				{
 					System.out.print(ch++ + " ");
 				}
 				ch-=2;
-				for(int j=1 ; j > i ; j++)//for decreasing
+				for(int j=1 ; j < i ; j++)//for decreasing
 				{
 					System.out.print(ch-- + " ");
 				}						
