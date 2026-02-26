@@ -25,12 +25,12 @@ public class Pattern75
 			{
 				for(int j=1 ; j <= i ; j++) //for increasing
 				{
-					System.out.print(j+ " ");
+					System.out.print(j+ "  ");
 				}
 				
 				for(int j = i-1 ; j >=1 ; j--)//for decreasing
 				{
-					System.out.print(j + " ");
+					System.out.print(j + "  ");
 				}	
 			}
 			System.out.println();
