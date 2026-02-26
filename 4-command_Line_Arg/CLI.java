@@ -8,6 +8,5 @@ class CLI
 			System.out.println("Odd");
 		else
 			System.out.println("Even ");
-		
 	}
 }
