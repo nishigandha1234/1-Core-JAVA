@@ -4,28 +4,31 @@ public class Pattern75
 	{
 		for(int i =1 ; i <= 5 ; i++)
 		{
-			if(i%2 == 1) //for increasing
+			for (int s = 1; s <= 5 - i; s++) 
+			{
+                System.out.print("    ");   // 4 spaces
+            }
+			if(i%2 == 1) 
 			{
 				char ch = 'A';
-				for(int j=1 ; j >= i ; j++)
+				for(int j=1 ; j >= i ; j++)//for increasing
 				{
 					System.out.print(ch++ + " ");
 				}
 				ch-=2;
-				for(int j=1 ; j > i ; j++)
+				for(int j=1 ; j > i ; j++)//for decreasing
 				{
 					System.out.print(ch-- + " ");
 				}						
 			}
 			else
 			{
-				int num = 1 ;
-				for(int j=1 ; j <= i ; j++)
+				for(int j=1 ; j <= i ; j++) //for increasing
 				{
 					System.out.print(j+ " ");
 				}
 				
-				for(int j=i ; j >=1 ; j--)
+				for(int j = i-1 ; j >=1 ; j--)//for decreasing
 				{
 					System.out.print(j + " ");
 				}	
