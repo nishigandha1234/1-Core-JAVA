@@ -2,6 +2,7 @@
 
 import java.util.*;
 
+
 public class FizzBuzz
 {
 	public static void main(String x[])
