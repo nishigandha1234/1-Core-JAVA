@@ -1,5 +1,4 @@
 //412
-
 import java.util.*;
 public class FizzBuzz
 {
