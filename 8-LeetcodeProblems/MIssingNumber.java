@@ -16,8 +16,10 @@ class MissingNumber
 		
 		System.out.println(missingNumber(int[]nums));
 	}
-	public int missingNumber(int[] nums) 
+	public int missingNumber(int[] nums)  //[0,1,3]
 	{
+		int n = nums.length; //3
+		int expSum = (n*(n+1))/2;
 		
     }
 }
