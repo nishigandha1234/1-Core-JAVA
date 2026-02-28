@@ -2,6 +2,10 @@
 
 class Solution 
 {
+	public static void main(String x[])
+	{
+		System.out.println(addDigits(38));
+	}
     public int addDigits(int num) 
 	{
         int sum = 0;
@@ -12,6 +16,6 @@ class Solution
             sum += rem;
             temp /= 10;
         }
-        System.out.println(temp);
+        return temp;
     }
 }
