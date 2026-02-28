@@ -8,9 +8,9 @@ class FrequencyOfDigit
 		System.out.println("Enter the Number : ");
 		int num = sc.nextInt();
 	
-		for(int i =0;i<=9;i++)
+		for(int i =0 ; i<=9 ; i++)
 		{
-			int temp= num;
+			int temp = num;
 			int count = 0;
 			
 			while(temp!=0)
