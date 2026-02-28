@@ -4,7 +4,7 @@ public class FindSecondMax
 {
 	public static void main(String x[])
 	{
-		Scanner sc = new Scanner(Systen.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Values in Arrays : ");
 		int[] ar = new int[6];
 		for(int i = 0 ; i < ar.length ; i++)
