@@ -7,7 +7,7 @@ class SumOfSquare
 	{
 		System.out.println(judgeSquareSum(5));
 	}
-    public boolean judgeSquareSum(int c) 
+    public static boolean judgeSquareSum(int c) 
 	{
         long i = 0 ;
         long j = (long) Math.sqrt(c);
