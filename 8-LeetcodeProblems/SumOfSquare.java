@@ -13,7 +13,7 @@ class SumOfSquare
         long j = (long) Math.sqrt(c);
 
         int i = 0;
-        int right = 0;
+        int j = 0;
 
         while(i <= j)
         {
