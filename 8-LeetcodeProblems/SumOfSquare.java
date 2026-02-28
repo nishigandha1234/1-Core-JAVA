@@ -17,8 +17,7 @@ class SumOfSquare
             long sum = i*i + j*j;
 
             if(sum == c)
-        
-                return true;
+                System.out.println("Sum is Equal");
             
             else if(sum < c)
                 i++;
