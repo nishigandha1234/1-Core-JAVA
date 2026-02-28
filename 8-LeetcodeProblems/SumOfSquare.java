@@ -5,9 +5,9 @@ class SumOfSquare
 {	
 	public static void main(String x[])
 	{
-		System.out.println(judgeSquareSum(5));
+		judgeSquareSum(5);
 	}
-    public static boolean judgeSquareSum(int c) 
+    public static void judgeSquareSum(int c) 
 	{
         long i = 0 ;
         long j = (long) Math.sqrt(c);
@@ -26,6 +26,6 @@ class SumOfSquare
             else
                 j--;
         }
-		return false;
+		System.out.println(sum);
     }
 }
