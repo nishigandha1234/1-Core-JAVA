@@ -25,8 +25,7 @@ class SumOfSquare
             
             else
                 j--;
-            
-            return false;
         }
+		return false;
     }
 }
