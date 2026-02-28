@@ -12,7 +12,7 @@ public class FindSecondMax
 			ar[i] = sc.nextInt();
 		}
 		int max = ar[0];
-		int secMax = Integer.MIN_LENGTH;
+		int secMax = Integer.MIN_VALUE;
 		for(int i = 1 ; i< ar.length ; i++)
 		{
 			if(ar[i] > max)
