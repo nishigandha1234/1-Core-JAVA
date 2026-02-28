@@ -1,10 +1,16 @@
 //633. Sum of Square Numbers
 //Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
 
-class SumOfSquare {
-    public boolean judgeSquareSum(int c) {
+class SumOfSquare 
+{	
+	public static void main(String x[])
+	{
+		System.out.println(judgeSquareSum(5));
+	}
+    public boolean judgeSquareSum(int c) 
+	{
         long i = 0 ;
-        long j =  (long) Math.sqrt(c);
+        long j = (long) Math.sqrt(c);
 
         int left = 0;
         int right = 0;
