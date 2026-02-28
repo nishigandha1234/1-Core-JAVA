@@ -15,9 +15,9 @@ class SumOfSquare
         int left = 0;
         int right = 0;
 
-        while(left <= right)
+        while(i <= j)
         {
-            int sum = left*left + right*right;
+            int sum = i*i + j*j;
 
             if(sum == c)
             {
@@ -25,11 +25,11 @@ class SumOfSquare
             }
             else if(sum < c)
             {
-                left++;
+                i++;
             }
             else
             {
-                right--;
+                j--;
             }
             return false;
         }
