@@ -13,7 +13,8 @@ class MissingNumber
 		{
 			int[] nums = sc.nextInt();
 		}
-		System.out.println(missingNumber(int[] nums));
+		
+		System.out.println(missingNumber(int[]nums));
 	}
 	public int missingNumber(int[] nums) 
 	{
