@@ -14,20 +14,18 @@ class SumOfSquare
 		
         while(i <= j)
         {
-            int sum = i*i + j*j;
+            long sum = i*i + j*j;
 
             if(sum == c)
-            {
+        
                 return true;
-            }
+            
             else if(sum < c)
-            {
                 i++;
-            }
+            
             else
-            {
                 j--;
-            }
+            
             return false;
         }
     }
