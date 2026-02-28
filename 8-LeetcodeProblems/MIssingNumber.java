@@ -20,6 +20,10 @@ class MissingNumber
 	{
 		int n = nums.length; //3
 		int expSum = (n*(n+1))/2;
+		for(int i = 0 ; i < nums.length ; i++)
+		{
+			int actSum += nums[i];
+		}
 		
     }
 }
