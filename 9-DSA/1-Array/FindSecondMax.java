@@ -25,6 +25,6 @@ public class FindSecondMax
 				secMax = ar[i];
 			}
 		}
-		System.out.println(secMax);
+		System.out.println("The Second Max is : "+secMax);
 	}
 }
