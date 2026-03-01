@@ -3,7 +3,6 @@
 
 import java.util.Scanner;
 class MissingNumber
-
 {
 	public static void main(String x[])
 	{
