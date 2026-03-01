@@ -31,4 +31,5 @@ class MissingNumber
 		}
 		return expSum - actSum;
     }
+	
 }
