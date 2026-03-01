@@ -30,5 +30,5 @@ class MissingNumber
 			actSum += nums[i];
 		}
 		return expSum - actSum;
-    } 
+    }
 }
