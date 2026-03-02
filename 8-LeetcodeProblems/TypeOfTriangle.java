@@ -2,8 +2,7 @@
 
 import java.util.Arrays;
 
-class TypeOfTriangle 
-{
+class TypeOfTriangle {
     public String triangleType(int[] nums) {
         Arrays.sort(nums);   // Sort to make triangle check easy
         
