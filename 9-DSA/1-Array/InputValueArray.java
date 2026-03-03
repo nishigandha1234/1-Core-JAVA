@@ -10,9 +10,9 @@ class InputValueArray
 		
 		for(int i = 0 ; i < ar.length ; i++)
 		{
-			int ar[i] = sc.nextInt();
+			ar[i] = sc.nextInt();
 		}
-		
+	
 		for(int i = 0 ; i < ar.length ; i++)
 		{
 			System.out.println(ar[i]);
