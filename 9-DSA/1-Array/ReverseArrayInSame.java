@@ -16,7 +16,7 @@ class ReverseArrayInSame
 		{
 			int temp = a[i];
 			int j;
-			for(j = 0 ; j < a.length-1-i ; j ++)
+			for(j = 0 ; j < a.length-1-i ; j++)
 			{
 				a[j] = a[j+1];
 			}
@@ -24,7 +24,7 @@ class ReverseArrayInSame
 		}
 		for(int i = 0 ; i < a.length ; i++)
 		{
-			System.out.println(a[i]+" ");
+			System.out.print(a[i]+" ");
 		}
 	}
 }
