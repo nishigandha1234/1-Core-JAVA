@@ -12,10 +12,11 @@ class ReverseArrayInSame
 		{
 			a[i] = sc.nextInt();
 		}
+		System.out.println("Array Before Reversed : ");
 		int j;
 		for(int i = 0 ; i < a.length ; i++)
 		{
-			int temp = a[i];
+			int temp = a[0];
 			
 			for(j = 0 ; j < a.length-1-i ; j++)
 			{
@@ -23,6 +24,7 @@ class ReverseArrayInSame
 			}
 			a[j] = temp;
 		}
+		System.out.println("Array After Reversed : ");
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			System.out.print(a[i]+" ");
