@@ -27,5 +27,9 @@ class MergeArray
 		{
 			ans[j] = b[i];
 		}
+		for(int i = 0; i < a.length ; i++, j++)
+		{
+			ans[i] = a[i];
+		}
 	}
 }

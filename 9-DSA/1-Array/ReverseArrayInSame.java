@@ -15,12 +15,16 @@ class ReverseArrayInSame
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			int temp = a[i];
-			for(int j = 0 ; j < a.length-1-i ; j ++)
+			int j;
+			for(j = 0 ; j < a.length-1-i ; j ++)
 			{
 				a[j] = a[j+1];
 			}
-			
+			a[j] = temp;
 		}
-		
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			System.out.println(a[i]+" ");
+		}
 	}
 }
