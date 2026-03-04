@@ -13,10 +13,11 @@ class MoveZerosAtLast
 		}
 		for(int i = 0 ; i < a.length ; i++)
 		{
-			if(a[i] != 0)
+			if(a[i] == 0)
 			{
+				int temp = a[i];
+				a[i] = a[i+1];
 				
-			int temp = a[
 			}
 				
 		}
