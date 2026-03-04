@@ -16,6 +16,7 @@ class MoveZerosAtLast
 			if(a[i] != 0)
 			{
 				
+			int temp = a[
 			}
 				
 		}
