@@ -17,7 +17,6 @@ class MoveZerosAtLast
 			{
 				int temp = a[i];
 				a[i] = a[i+1];
-				
 			}
 				
 		}
