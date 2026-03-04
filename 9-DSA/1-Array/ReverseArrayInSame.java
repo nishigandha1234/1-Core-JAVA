@@ -28,7 +28,7 @@ class ReverseArrayInSame
 			}
 			a[j] = temp;
 		}
-		System.out.println("Array After Reversed : ");
+		System.out.println("\nArray After Reversed : ");
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			System.out.print(a[i]+" ");
