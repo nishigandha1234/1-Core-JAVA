@@ -14,7 +14,7 @@ class RotateArray
 			ans[i] = a[k]; 
 			k--;
 		}
-		for(int i = 0 ; i < ans.length ; i++)
+		for(int i = 0 ; i < ans.length-1 ; i++)
 		{
 			System.out.print(ans[i] + " ");
 		}
