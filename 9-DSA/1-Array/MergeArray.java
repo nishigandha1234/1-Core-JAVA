@@ -18,5 +18,7 @@ class MergeArray
 		{
 			b[i] = sc.nextInt();
 		}
+		int[] ans = new int[a.length+b.length];
+		
 	}
 }
