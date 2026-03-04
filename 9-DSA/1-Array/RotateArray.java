@@ -8,13 +8,13 @@ class RotateArray
 		System.out.println("Enter the Values in Array : ");
 		int a[] = new int[5];
 		int[] ans = new int[a.length];
-		int k = a.length;
-		for(int i = 0 ; i < a.length-1 ; i++)
+		int k = a.length-1;
+		for(int i = 0 ; i < a.length; i++)
 		{
 			ans[i] = a[k]; 
 			k--;
 		}
-		for(int i = 0 ; i < ans.length-1 ; i++)
+		for(int i = 0 ; i < ans.length ; i++)
 		{
 			System.out.print(ans[i] + " ");
 		}
