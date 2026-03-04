@@ -19,6 +19,13 @@ class MergeArray
 			b[i] = sc.nextInt();
 		}
 		int[] ans = new int[a.length+b.length];
-		
+		for(int i = 0, j= 0 ; i < a.length ; i++, j++)
+		{
+			ans[i] = a[i];
+		}
+		for(int i = 0, j= 0 ; i < b.length ; i++, j++)
+		{
+			ans[j] = b[i];
+		}
 	}
 }
