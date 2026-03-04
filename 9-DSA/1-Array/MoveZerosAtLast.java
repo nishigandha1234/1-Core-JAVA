@@ -1,4 +1,4 @@
-import jva.util.Scanner;
+import java.util.Scanner;
 
 class MoveZerosAtLast
 {
