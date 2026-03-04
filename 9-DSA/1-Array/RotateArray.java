@@ -9,6 +9,10 @@ class RotateArray
 		int a[] = new int[5];
 		int[] ans = new int[a.length];
 		int k = a.length-1;
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+		}
 		for(int i = 0 ; i < a.length; i++)
 		{
 			ans[i] = a[k]; 
