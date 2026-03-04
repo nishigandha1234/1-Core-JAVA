@@ -12,10 +12,11 @@ class ReverseArrayInSame
 		{
 			a[i] = sc.nextInt();
 		}
+		int j;
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			int temp = a[i];
-			int j;
+			
 			for(j = 0 ; j < a.length-1-i ; j++)
 			{
 				a[j] = a[j+1];
