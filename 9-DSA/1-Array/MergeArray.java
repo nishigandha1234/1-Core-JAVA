@@ -10,5 +10,13 @@ class MergeArray
 		System.out.println("Enter the Values in b : ");
 		int b[] = new int[5];
 		
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+		}
+		for(int i = 0 ; i < b.length ; i++)
+		{
+			b[i] = sc.nextInt();
+		}
 	}
 }
