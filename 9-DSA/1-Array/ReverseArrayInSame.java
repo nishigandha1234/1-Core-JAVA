@@ -7,20 +7,20 @@ class ReverseArrayInSame
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Values in Array : ");
 		int a[] = new int[5];
-		int[] ans = new int[a.length];
 		int k = a.length-1;
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			a[i] = sc.nextInt();
 		}
-		for(int i = 0 ; i < a.length; i++)
+		for(int i = 0 ; i < a.length ; i++)
 		{
-			ans[i] = a[k]; 
-			k--;
+			int temp = a[i];
+			for(int j = 0 ; j < a.length-1-i ; j ++)
+			{
+				a[i] = a[i+1];
+			}
+			
 		}
-		for(int i = 0 ; i < ans.length ; i++)
-		{
-			System.out.print(ans[i] + " ");
-		}
+		
 	}
 }
