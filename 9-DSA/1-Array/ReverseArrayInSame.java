@@ -17,7 +17,7 @@ class ReverseArrayInSame
 			int temp = a[i];
 			for(int j = 0 ; j < a.length-1-i ; j ++)
 			{
-				a[i] = a[i+1];
+				a[j] = a[j+1];
 			}
 			
 		}
