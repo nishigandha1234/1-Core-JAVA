@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 
-
 class InputValueArray
 {
 	public static void main(String x[])
