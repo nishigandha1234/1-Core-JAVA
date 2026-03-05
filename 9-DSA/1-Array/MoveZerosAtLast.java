@@ -17,7 +17,6 @@ class MoveZerosAtLast
 			{
 				int temp = a[i];
 				a[i] = a[i+1];
-				a[i] = temp;
 			}
 		}
 		for(int i = 0 ; i < a.length ; i++)
