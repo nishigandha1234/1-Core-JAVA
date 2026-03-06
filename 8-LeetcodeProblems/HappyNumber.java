@@ -10,7 +10,7 @@ class HappyNumber
 	}
 	public static void isHappy(int num) // 19
 	{
-		for(int i = 1 ; i < num ; i++)
+		while(temp != 1)
 		{
 			int temp = num;
 			int sum = 0;
@@ -21,9 +21,7 @@ class HappyNumber
 				sum += squ; 
 				temp/=10; //1
 			}
-			
-				
-				
+			temp = sum;
 		}
 	}
 }
