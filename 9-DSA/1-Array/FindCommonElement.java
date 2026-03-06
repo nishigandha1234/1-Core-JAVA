@@ -22,7 +22,6 @@ class FindCommonElement
 		{
 			for(int j = 0 ; j < b.length ; j++)
 			{
-				System.out.print("Common Elements are : ");
 				if(a[i] == b[j])
 				{
 					System.out.print(b[j] + " ");
