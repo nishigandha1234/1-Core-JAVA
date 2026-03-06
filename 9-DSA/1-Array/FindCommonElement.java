@@ -26,7 +26,7 @@ class FindCommonElement
 			{
 				if(a[i] == b[j])
 				{
-					flag = true
+					flag = true;
 					break;
 				}
 			}
