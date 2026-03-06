@@ -11,7 +11,10 @@ class FindCommonElement
 		{
 			for(int j = 0 ; j < b.length ; j++)
 			{
-				
+				if(a[i] == b[j])
+				{
+					S
+				}
 			}
 		}
 	}
