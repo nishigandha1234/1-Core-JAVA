@@ -6,7 +6,7 @@ class HappyNumber
 {
 	public static void main(String x[])
 	{
-		System.out.println(isHappy(19));
+		isHappy(19);
 	}
 	public static void isHappy(int num) // 19
 	{
