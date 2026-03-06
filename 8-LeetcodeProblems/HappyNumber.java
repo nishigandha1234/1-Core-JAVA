@@ -10,10 +10,11 @@ class HappyNumber
 	}
 	public static void isHappy(int num) // 19
 	{
+		int temp = num;
+		int sum = 0;
 		while(temp != 1)
 		{
-			int temp = num;
-			int sum = 0;
+			
 			while(temp!=0) // 9!=0 1!=0
 			{
 				int rem = temp%10; //9 1
@@ -23,6 +24,7 @@ class HappyNumber
 			}
 			temp = sum;
 		}
+		if(sum
 	}
 }
  
