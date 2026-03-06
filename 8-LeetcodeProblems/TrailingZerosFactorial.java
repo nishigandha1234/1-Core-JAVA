@@ -9,7 +9,8 @@ class TrailingZerosFactorial
 	{
 		
 	}
-	public int trailingZeroes(int n) {
-        
+	public static void trailingZeroes(int n) 
+	{
+		
     }
 }
