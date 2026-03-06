@@ -11,6 +11,13 @@ class TrailingZerosFactorial
 	}
 	public static void trailingZeroes(int n) 
 	{
-		
+		int fact = 1 ; 
+		int count = 0;
+		for(int i = 1 ; i < n ; i++) //4<5
+		{
+			fact *= i; //1*5 5 2*5 10 3*10 30 4*30 120
+		}
+		if(fact % 10 == 0) count++;
+		return count;
     }
 }
