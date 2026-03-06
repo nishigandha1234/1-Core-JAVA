@@ -19,8 +19,9 @@ class HappyNumber
 				int rem = temp%10; //9 1
 				int squ = rem*rem; //81 1
 				temp/=10; //1
+				sum += squ; 
 			}
-			sum += squ; 
+			
 				
 				
 		}
