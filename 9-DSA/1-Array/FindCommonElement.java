@@ -17,7 +17,7 @@ class FindCommonElement
 		{
 			b[i] = sc.nextInt();
 		}
-		System.out.print("Common Elements are : ");
+		System.out.print("Common Elements are : ");y
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			for(int j = 0 ; j < b.length ; j++)
