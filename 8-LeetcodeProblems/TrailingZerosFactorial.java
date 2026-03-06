@@ -20,9 +20,13 @@ class TrailingZerosFactorial
 		System.out.println(fact);
 		while(fact!=0)
 		{
-			if(fact == 0)
+			int rem = fact % 10;
+			if(rem > 0 && rem < 9)
 			{
-				int rem = fact % 10;
+				
+			}
+			else
+			{
 				if(rem == 0) 
 				{
 					count++;
