@@ -13,7 +13,7 @@ class FindCommonElement
 			{
 				if(a[i] == b[j])
 				{
-					S
+					System.out.println(b[j] + " ");
 				}
 			}
 		}
