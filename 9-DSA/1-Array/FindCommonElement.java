@@ -6,13 +6,13 @@ class FindCommonElement
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Values in first Array : ");
-		int[] a = new int[];
+		int[] a = new int[5];
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			a[i] = sc.nextInt();
 		}
 		System.out.println("Enter the Values in Second Array : ");
-		int[] b = new int[];
+		int[] b = new int[6];
 		for(int i = 0 ; i < b.length ; i++)
 		{
 			b[i] = sc.nextInt();
