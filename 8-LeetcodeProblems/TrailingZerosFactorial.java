@@ -21,7 +21,11 @@ class TrailingZerosFactorial
 		while(fact!=0)
 		{
 			int rem = fact % 10;
-			if(== 0) count++;
+			if(rem == 0) 
+			{
+				count++;
+			}
+			fact/=10;
 		}
 		return count;
     }
