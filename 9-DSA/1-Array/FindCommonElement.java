@@ -13,7 +13,7 @@ class FindCommonElement
 		}
 		System.out.println("Enter the Values in Second Array : ");
 		int[] b = new int[6];
-		boolean flag;
+		boolean flag = false;
 		
 		for(int i = 0 ; i < b.length ; i++)
 		{
