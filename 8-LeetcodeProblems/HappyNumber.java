@@ -7,6 +7,7 @@ class HappyNumber
 	public static void main(String x[])
 	{
 		isHappy(
+		
 	}
 	public static void isHappy(int num)
 	{
