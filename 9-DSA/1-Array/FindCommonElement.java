@@ -4,9 +4,19 @@ class FindCommonElement
 {
 	public static void main(String x[])
 	{
-		Scanner 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Values in first Array : ");
 		int[] a = new int[];
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+		}
+		System.out.println("Enter the Values in Second Array : ");
 		int[] b = new int[];
+		for(int i = 0 ; i < b.length ; i++)
+		{
+			b[i] = sc.nextInt();
+		}
 		
 		for(int i = 0 ; i < a.length ; i++)
 		{
