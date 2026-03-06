@@ -7,9 +7,9 @@ class TrailingZerosFactorial
 {
 	public static void main(String x[])
 	{
-		
+		System.out.println(trailingZeroes(5));
 	}
-	public static void trailingZeroes(int n) 
+	public static int trailingZeroes(int n) 
 	{
 		int fact = 1 ; 
 		int count = 0;
