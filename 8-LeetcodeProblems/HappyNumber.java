@@ -14,7 +14,6 @@ class HappyNumber
 		int sum = 0;
 		while(temp != 1)
 		{
-			
 			while(temp!=0) // 9!=0 1!=0
 			{
 				int rem = temp%10; //9 1
