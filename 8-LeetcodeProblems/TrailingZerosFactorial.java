@@ -18,7 +18,11 @@ class TrailingZerosFactorial
 			fact *= i; //1*5 5 2*5 10 3*10 30 4*30 120
 		}
 		System.out.println(fact);
-		if(fact % 10 == 0) count++;
+		while(fact!=0)
+		{
+			int rem = fact % 10;
+			if(== 0) count++;
+		}
 		return count;
     }
 }
