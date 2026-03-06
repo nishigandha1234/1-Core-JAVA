@@ -13,9 +13,15 @@ class HappyNumber
 		for(int i = 1 ; i < num ; i++)
 		{
 			int temp = num;
-			while(temp!=0)
+			int sum = 0;
+			while(temp!=0) // 9!=0 1!=0
 			{
-				int rem = num % 10; //9
+				int rem = num%10; //9 1
+				int squ = rem*rem; //81 1
+				temp/=10; //1
+			}
+			sum += squ; 
+				
 				
 		}
 	}
