@@ -24,6 +24,7 @@ class FindCommonElement
 			{
 				if(a[i] == b[j])
 				{
+					int[] c = new int[];
 					c[i] = b[j] ;
 				}
 			}
