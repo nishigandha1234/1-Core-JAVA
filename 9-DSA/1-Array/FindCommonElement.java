@@ -15,6 +15,7 @@ class FindCommonElement
 		int[] b = new int[6];
 		boolean flag = false;
 		
+		
 		for(int i = 0 ; i < b.length ; i++)
 		{
 			b[i] = sc.nextInt();
