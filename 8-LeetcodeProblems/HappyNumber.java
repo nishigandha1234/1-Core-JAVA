@@ -6,12 +6,12 @@ class HappyNumber
 {
 	public static void main(String x[])
 	{
-		isHappy(19);
+		isHappy(198);
 	}
 	public static void isHappy(int num) // 19
 	{
 		int temp = num;
-		while(temp != 1)
+		while(temp != 1&& temp != 4)
 		{
 			int sum = 0;
 			while(temp!=0) // 9!=0 1!=0
