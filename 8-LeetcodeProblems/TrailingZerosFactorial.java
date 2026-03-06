@@ -4,3 +4,12 @@
 //Input: n = 5 Output: 1 Explanation: 5! = 120, one trailing zero.
 
 class TrailingZerosFactorial
+{
+	public static void main(String x[])
+	{
+		
+	}
+	public int trailingZeroes(int n) {
+        
+    }
+}
