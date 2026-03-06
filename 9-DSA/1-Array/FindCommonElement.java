@@ -24,9 +24,13 @@ class FindCommonElement
 			{
 				if(a[i] == b[j])
 				{
-					int[] c = new int[];
-					c[i] = b[j] ;
+					flag = true
+					break;
 				}
+			}
+			if(flag == false)
+			{
+				System.out.println(a[i]+" ");
 			}
 		}
 	}
