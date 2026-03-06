@@ -6,7 +6,7 @@ class HappyNumber
 {
 	public static void main(String x[])
 	{
-		isHappy();
+		System.out.println(isHappy(19));
 	}
 	public static void isHappy(int num) // 19
 	{
@@ -23,7 +23,8 @@ class HappyNumber
 			}
 			temp = sum;
 		}
-		if(sum
+		if(temp == 1) System.out.println("Happy Number");
+		else System.out.println("NOT Happy Number");
 	}
 }
  
