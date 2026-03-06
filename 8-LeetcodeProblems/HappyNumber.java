@@ -6,14 +6,17 @@ class HappyNumber
 {
 	public static void main(String x[])
 	{
-		isHappy(
-		
+		isHappy();
 	}
-	public static void isHappy(int num)
+	public static void isHappy(int num) // 19
 	{
 		for(int i = 1 ; i < num ; i++)
 		{
-			
+			int temp = num;
+			while(temp!=0)
+			{
+				int rem = num % 10; //9
+				
 		}
 	}
 }
