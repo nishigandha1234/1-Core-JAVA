@@ -19,8 +19,14 @@ class InsertElementArray
 			while(k <= count)
 			{
 				a[k] = a[k+1];
+				k++;
 			}
-			
+			a[k] = 0;
+			count--;
+			for(int i = 0 ; i < count ; i++)
+			{
+				System.out.println(a[i] + " ");
+			}
 		}
 	}
 }
