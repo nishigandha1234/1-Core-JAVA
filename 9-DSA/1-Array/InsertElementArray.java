@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class InsertElementArray
+class DeleteElementArray
 {
 	public static void main(String x[])
 	{
