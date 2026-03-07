@@ -8,7 +8,7 @@ class DeleteElementArray
 		int a[] = {11,22,33,44,55};
 		int count = 5;
 		System.out.println("Enter the Element And Index : ");
-		int k = 0;
+		int k = 4;
 		if(k<0 || k > count)
 			System.out.println("Invalid Index Number :");
 		
