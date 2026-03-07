@@ -21,7 +21,7 @@ class DeleteElementArray
 			}
 			a[k] = 0;
 			count--;
-			for(int i = 0 ; i < count ; i++)
+			for(int i = 0 ; i < count-1 ; i++)
 			{
 				System.out.println(a[i] + " ");
 			}
