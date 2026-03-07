@@ -14,6 +14,13 @@ class InsertElementArray
 		if(k<0 || k > count)
 			System.out.println("Invalid Index Number :");
 		
-		
+		else
+		{
+			while(k <= count)
+			{
+				a[k] = a[k+1];
+			}
+			
+		}
 	}
 }
