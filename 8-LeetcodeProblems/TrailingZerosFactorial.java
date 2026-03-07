@@ -7,7 +7,7 @@ class TrailingZerosFactorial
 {
 	public static void main(String x[])
 	{
-		System.out.println(trailingZeroes(7));
+		System.out.println(trailingZeroes(5));
 	}
 	public static int trailingZeroes(int n) 
 	{
@@ -23,7 +23,7 @@ class TrailingZerosFactorial
 			int rem = fact % 10;
 			if(rem > 1 && rem < 9)
 			{
-				fact/=10;
+				break;
 			}
 			else
 			{
