@@ -9,7 +9,6 @@ class InsertElementArray
 		int b[] = new int[6];
 		int count = 5;
 		System.out.println("Enter the Element And Index : ");
-		int element = 777;
 		int k = sc.nextInt();;
 		if(k<0 || k > count)
 			System.out.println("Invalid Index Number :");
