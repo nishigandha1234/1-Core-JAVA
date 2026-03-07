@@ -1,4 +1,4 @@
-import 
+import java.util.Scanner;
 
 class InsertElementArray
 {
