@@ -14,7 +14,7 @@ class DeleteElementArray
 		
 		else
 		{
-			while(k <= count)
+			while(k < count-1)
 			{
 				a[k] = a[k+1];
 				k++;
