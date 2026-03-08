@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 
+
 class DeleteElementArray
 {
 	public static void main(String x[])
