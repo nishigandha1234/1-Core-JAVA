@@ -23,11 +23,10 @@ class FindElementInArray
 				found = true;
 				break;
 			}
-			else
-			{
-				System.out.println("-1");
-			}
 		}
-		
+		if(!found)
+		{
+			System.out.println("-1");
+		}
 	}
 }
