@@ -11,5 +11,6 @@ class MissingElement
 		{
 			a[i] = sc.nextInt();
 		}			
+		
 	}
 }
