@@ -24,13 +24,13 @@ class EqualArray
 		if(a.length != b.length)
 			System.out.println("Arrays are NOT Equal");
 		
-		boolean flag = false;
+		boolean flag = true;
 		
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			if(a[i] != b[i])
 			{
-				flag = flase;
+				flag = false;
 				break;
 			}
 		}
