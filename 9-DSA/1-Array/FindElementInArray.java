@@ -13,14 +13,21 @@ class FindElementInArray
 		}
 		System.out.println("Enter the Element find in Array : ");
 		int element = sc.nextInt();
+		boolean found = false;
 		
 		for(int i = 0 ; i < a.length-1 ; i++)
 		{
 			if(a[i] == element)
 			{
 				System.out.println("Element Found at Index : " + i);
+				found = true;
+				break;
+			}
+			else
+			{
+				System.out.println("-1");
 			}
 		}
-		System.out.println("-1");
+		
 	}
 }
