@@ -5,8 +5,10 @@ class EqualArray
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Size and Values in First Array : ");
+		
+		System.out.println("Enter the Size in Second Array : ");
 		int size1 = sc.nextInt();
+		System.out.println("Enter the Values in First Array : ");
 		int a[] = new int[size1];
 		for(int i = 0 ; i < a.length ; i++)
 		{
