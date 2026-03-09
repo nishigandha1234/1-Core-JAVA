@@ -12,6 +12,16 @@ class EqualArray
 		int size2 = sc.nextInt();
 		int b[] = new int[size2];
 		
-		for(int
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+		}
+		for(int i = 0 ; i < b.length ; i++)
+		{
+			b[i] = sc.nextInt();
+		}
+		
+		if(a.length != b.length)
+			System.out.println("Arrays are NOT Equal");
 	}
 }
