@@ -18,6 +18,8 @@ class MajorityElement
 			{
 				count++;
 			}
+			System.out.print(a[i] + " : " + count);
 		}
+		//if(count > 
 	}
 }
