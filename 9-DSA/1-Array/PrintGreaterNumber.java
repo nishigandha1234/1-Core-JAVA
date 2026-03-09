@@ -14,6 +14,9 @@ class PrintGreaterNumber
 		System.out.println("Enter the Greater Value : ");
 		int num = sc.nextInt();
 		
-		
+		for(int i= 0 ; i< a.length ; i++)
+		{
+			
+		}
 	}
 }
