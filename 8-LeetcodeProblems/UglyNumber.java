@@ -4,17 +4,24 @@ class UglyNumber
 {
 	public static void main(String x[])
 	{
-		isUgly(30);
+		System.out.println(isUgly(7));
 	}
-	public static void isUgly(int num)
+	public static boolean isUgly(int num)
 	{
-		if(num%2==0 || num%3==0 || num%5==0)
+		if(num <= 0) return false;
+		
+		while(num % 2 == 0 )
 		{
-			System.out.println("Ugly Number");
+			num /= 2;
 		}
-		else
+		while(num % 3 == 0 )
 		{
-			System.out.println("NOT Ugly Number");
+			num /= 3;
 		}
+		while(num % 5 == 0 )
+		{
+			num /= 5;
+		}
+		return num == 1;
 	}
 }
