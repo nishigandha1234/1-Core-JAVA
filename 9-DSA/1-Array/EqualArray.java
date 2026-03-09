@@ -8,14 +8,15 @@ class EqualArray
 		System.out.println("Enter the Size and Values in First Array : ");
 		int size1 = sc.nextInt();
 		int a[] = new int[size1];
-		System.out.println("Enter the Size and Values in Second Array : ");
-		int size2 = sc.nextInt();
-		int b[] = new int[size2];
-		
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			a[i] = sc.nextInt();
 		}
+		
+		System.out.println("Enter the Size in Second Array : ");
+		int size2 = sc.nextInt();
+		System.out.println("Enter Values in Second Array : ");
+		int b[] = new int[size2];
 		for(int i = 0 ; i < b.length ; i++)
 		{
 			b[i] = sc.nextInt();
