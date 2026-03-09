@@ -18,7 +18,7 @@ class PrintGreaterNumber
 		{
 			if(num < a[i])
 			{
-				
+				System.out.println(a[i] +" ");
 			}
 		}
 	}
