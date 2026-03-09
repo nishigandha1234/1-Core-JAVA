@@ -20,10 +20,7 @@ class FindElementInArray
 			{
 				System.out.println(i + " ");
 			}
-			else
-			{
-				System.out.println("-1");
-			}
 		}
+		return -1;
 	}
 }
