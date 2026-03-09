@@ -18,7 +18,7 @@ class FindElementInArray
 		{
 			if(a[i] == element)
 			{
-				System.out.println(i + " ");
+				System.out.println("Element Found at Index : " + i);
 			}
 		}
 		System.out.println("-1");
