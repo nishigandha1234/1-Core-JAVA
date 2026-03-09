@@ -21,6 +21,6 @@ class FindElementInArray
 				System.out.println(i + " ");
 			}
 		}
-		return -1;
+		System.out.println("-1");
 	}
 }
