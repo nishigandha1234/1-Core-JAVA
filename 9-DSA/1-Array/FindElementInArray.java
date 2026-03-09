@@ -14,11 +14,15 @@ class FindElementInArray
 		System.out.println("Enter the Element find in Array : ");
 		int element = sc.nextInt();
 		
-		for(int i = 0 ; i< a.length ; i++)
+		for(int i = 0 ; i < a.length-1 ; i++)
 		{
 			if(a[i] == element)
 			{
-				
+				System.out.println(i + " ");
+			}
+			else
+			{
+				System.out.println("-1");
 			}
 		}
 	}
