@@ -34,5 +34,7 @@ class EqualArray
 				break;
 			}
 		}
+		if(flag) System.out.println("Arrays are Equal");
+		else System.out.println("Arrays are NOT Equal");
 	}
 }
