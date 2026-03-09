@@ -11,6 +11,8 @@ class RotateArrayByNpositions
 		{
 			a[i] = sc.nextInt();
 		}
+		System.out.println("Enter the N Rotations : ");
+		int n = sc.nextInt();
 		
 	}
 }
