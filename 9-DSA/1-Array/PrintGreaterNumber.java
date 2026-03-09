@@ -11,6 +11,9 @@ class PrintGreaterNumber
 		{
 			a[i] = sc.nextInt();
 		}
+		System.out.println("Enter the Greater Value : ");
+		int num = sc.nextInt();
+		
 		
 	}
 }
