@@ -17,6 +17,6 @@ class ReachNumber
 			steps++;
 			sum += steps;
 		}
-		return steps;
+		return steps;;
     }
 }
