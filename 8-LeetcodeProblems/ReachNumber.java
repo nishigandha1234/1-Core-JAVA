@@ -9,6 +9,7 @@ class ReachNumber
 	}
 	public static int reachNumber(int target) 
 	{
-        
+		target = Math.abs(target);
+		
     }
 }
