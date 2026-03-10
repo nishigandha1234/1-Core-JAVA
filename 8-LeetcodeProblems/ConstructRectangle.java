@@ -15,6 +15,6 @@ class ConstructRectangle
 			w--;
 		}
 		int l = area/w;
-		return [l,w];
+		return new int[] {l,w};
 	}
 }
