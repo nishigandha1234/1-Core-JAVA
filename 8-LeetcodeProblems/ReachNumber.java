@@ -5,7 +5,7 @@ class ReachNumber
 {
 	public static void main(String x[])
 	{
-		
+		System.out.println(reachNumber(2));
 	}
 	public static int reachNumber(int target) 
 	{
@@ -17,7 +17,6 @@ class ReachNumber
 			steps++;
 			sum += steps;
 		}
-		
-		
+		return steps;
     }
 }
