@@ -9,16 +9,9 @@ class SmallestEvenMultiple
 	}
 	public static int smallestEvenMultiple(int n) 
 	{
-		boolean flag = false;
-		int i ;
-		for(i = 2 ; i < n ; i++)
-		{
-			if(n%i == 0 && i%2 == 0){
-				flag = true;
-				break;
-			}	
-		}
-		if(flag)
-			return i;
+		if(n % 2 == 0)
+			return n;
+		else
+			return n * 2;
     }
 }
