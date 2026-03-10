@@ -9,8 +9,6 @@ class SmallestEvenMultiple
 	}
 	public static int smallestEvenMultiple(int n) 
 	{
-		
-		
-		
+	
     }
 }
