@@ -9,7 +9,7 @@ class DeleteElementArray
 		int count = 5;
 		System.out.println("Enter the Element And Index : ");
 		int k = 3;
-		if(k<0 || k > count)
+		if(k < 0 || k > count)
 			System.out.println("Invalid Index Number...");
 		
 		else
