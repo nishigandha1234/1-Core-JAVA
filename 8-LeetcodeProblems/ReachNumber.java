@@ -12,10 +12,10 @@ class ReachNumber
 		target = Math.abs(target); //if -ve make it +ve
 		int sum = 0 , steps = 0;
 		
-		
 		while(sum < target || (sum - target) % 2 != 0)
 		{
-			
+			steps++;
+			sum += steps;
 		}
 		
 		
