@@ -9,7 +9,9 @@ class ReachNumber
 	}
 	public static int reachNumber(int target) 
 	{
-		target = Math.abs(target);
+		target = Math.abs(target); //if -ve make it +ve
+		int sum = 0 , steps = 0;
+		
 		
     }
 }
