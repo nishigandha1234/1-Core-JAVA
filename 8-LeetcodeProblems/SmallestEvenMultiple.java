@@ -7,7 +7,8 @@ class SmallestEvenMultiple
 	{
 		
 	}
-	public static int smallestEvenMultiple(int n) {
-        
+	public static int smallestEvenMultiple(int n) 
+	{
+		
     }
 }
