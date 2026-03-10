@@ -13,5 +13,6 @@ class SmallestEvenMultiple
 			return n;
 		else
 			return n * 2;
+		
     }
 }
