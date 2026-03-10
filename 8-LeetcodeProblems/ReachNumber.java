@@ -7,7 +7,8 @@ class ReachNumber
 	{
 		
 	}
-	public static int reachNumber(int target) {
+	public static int reachNumber(int target) 
+	{
         
     }
 }
