@@ -5,7 +5,7 @@ class ReachNumber
 {
 	public static void main(String x[])
 	{
-		System.out.println(reachNumber(2));
+		System.out.println(reachNumber(3));
 	}
 	public static int reachNumber(int target) 
 	{
