@@ -5,7 +5,7 @@ class SmallestEvenMultiple
 {
 	public static void main(String x[])
 	{
-		
+		System.out.println(smallestEvenMultiple(6));
 	}
 	public static int smallestEvenMultiple(int n) 
 	{
@@ -13,7 +13,7 @@ class SmallestEvenMultiple
 		{
 			if(n%i == 0 && i%2 == 0)
 			{
-				System.out.print(i + " ");
+				return i + " ";
 			}
 		}
     }
