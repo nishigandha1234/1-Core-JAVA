@@ -13,7 +13,10 @@ class ReachNumber
 		int sum = 0 , steps = 0;
 		
 		
-		while(sum < steps || (
+		while(sum < target || (sum - target) % 2 != 0)
+		{
+			
+		}
 		
 		
     }
