@@ -13,5 +13,8 @@ class ReachNumber
 		int sum = 0 , steps = 0;
 		
 		
+		while(sum < steps || (
+		
+		
     }
 }
