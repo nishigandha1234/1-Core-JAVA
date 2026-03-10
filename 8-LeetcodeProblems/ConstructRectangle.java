@@ -5,7 +5,7 @@ class ConstructRectangle
 {
 	public static void main(String x[])
 	{
-		System.out.println(constructRectangle(37));
+		System.out.println(Arrays.toString(constructRectangle(37)));
 	}
 	public static int[] constructRectangle(int area) 
 	{
