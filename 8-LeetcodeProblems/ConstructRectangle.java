@@ -10,8 +10,9 @@ class ConstructRectangle
 	}
 	public static int[] constructRectangle(int area) 
 	{
-		int w = (int)Math.sqrt(area);
-		while(area%w != 0)
+		int w = (int)Math.sqrt(area); //6
+		
+		while(area % w != 0)
 		{
 			w--;
 		}
