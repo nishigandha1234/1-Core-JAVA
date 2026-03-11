@@ -17,6 +17,6 @@ class ReverseBits
             n = n >> 1;                // shift n right
         }
 
-        return result;
+        return result
     }
 }
