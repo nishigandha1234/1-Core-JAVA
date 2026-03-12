@@ -14,5 +14,6 @@ class PairsOfSum
 		System.out.println("Enter the Target Element : ");
 		int target = sc.nextInt();
 		
+		
 	}
 }
