@@ -23,10 +23,14 @@ class MajorityElement
 				{
 					count++;
 				}
-				if(count > ((a.length)/2))
-					System.out.println("Majority Element : " + a[i]+" ");
+			}
+			if(count > ((a.length)/2))
+			{
+				majority = a[i];
+				break;
 			}
 		}
+			
 		
 	}
 }
