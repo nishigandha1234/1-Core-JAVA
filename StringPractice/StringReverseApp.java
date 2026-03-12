@@ -14,7 +14,7 @@ class StringReverseApp
 			char ch = str.charAt(i);
 			if(ch != ' ')
 			{
-				word += ch;
+				word = ch + word;
 			}
 			else
 			{
