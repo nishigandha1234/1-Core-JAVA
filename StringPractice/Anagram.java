@@ -13,11 +13,11 @@ class Anagram
 		
 		if(Arrays.equals(a,b))
 		{
-			System.out.println("Anagram"):
+			System.out.println("Anagram");
 		}
 		else
 		{
-			System.out.println("NOT Anagram"):
+			System.out.println("NOT Anagram");
 		}
 	}
 }
