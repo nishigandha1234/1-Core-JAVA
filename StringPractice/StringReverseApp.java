@@ -18,10 +18,10 @@ class StringReverseApp
 			}
 			else
 			{
-				System.out.println(word + " ");
+				System.out.printS(word + " ");
 				word = "";
 			}
 		}
-		
+		System.out.print(word+" ");
 	}
 }
