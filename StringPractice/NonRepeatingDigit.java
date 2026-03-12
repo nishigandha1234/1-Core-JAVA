@@ -2,7 +2,7 @@ class NonRepeatingDigit
 {
 	public static void main(String x[])
 	{
-		String str = "Swiss";
+		String str = "swiss";
 		for(int i = 0 ; i < str.length(); i++)
 		{
 			int count = 0;
@@ -13,12 +13,11 @@ class NonRepeatingDigit
 					count++;
 				}
 			}
-		}
-		//System.out.println(str.charAt(i) + " : " + count);
-		if(count == 1)
-		{
-			System.out.println(str.charAt(i));
-			break;
-		}			
+			if(count == 1)
+			{
+				System.out.println(str.charAt(i));
+				break;
+			}	
+		}		
 	}
 }
