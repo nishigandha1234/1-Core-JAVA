@@ -18,7 +18,7 @@ class StringReverseApp
 			}
 			else
 			{
-				
+				System.out.println(word + " ");
 			}
 		}
 		
