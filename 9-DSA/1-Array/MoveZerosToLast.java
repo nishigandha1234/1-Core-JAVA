@@ -4,7 +4,7 @@ class MoveZerosToLast
 {
 	public static void main(String x[])
 	{
-		
+		System.out.println(moveZeroes([0,1,0,3,12]);
 	}
 	 public static void moveZeroes(int[] nums) {
         int index = 0;
