@@ -6,20 +6,27 @@ class MajorityElement
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Values in an Array : ");
-		int a[] = new int[8];
+		int a[] = new int[10];
 		for(int i =0 ; i<a.length ; i++)
 		{
 			a[i] = sc.nextInt();
 		}
-		int count = 0;
-		for(int i = 0 ; i < a.length-1 ; i++)
+		int majority = -1;
+		
+		
+		int i;
+		for(i = 0 ; i < a.length-1 ; i++)
 		{
-			if(a[i] == a[i+1])
+			int count = 0;
+			for(int j = i+1 ; j < a.length ; j++)
 			{
-				count++;
+				if(a[i] == a[j])
+				{
+					count++;
+				}
 			}
-			if(count > a[i]/2)
-				System.out.println("Majority Element : " + a[i]+" ");
 		}
+		if(count > (a.length)/2)
+				System.out.println("Majority Element : " + a[i]+" ");
 	}
 }
