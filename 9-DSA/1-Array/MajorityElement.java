@@ -30,7 +30,9 @@ class MajorityElement
 				break;
 			}
 		}
-			
-		
+		if(majority != -1)
+			System.out.println("MajorityElement is : "+ majority);
+		else
+            System.out.println("No Majority Element");
 	}
 }
