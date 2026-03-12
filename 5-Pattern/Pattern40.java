@@ -11,6 +11,7 @@ class Pattern40
 				if(j >= 6-i && j <= 4+i)
 				{
 					System.out.print(num+" ");
+					
 					num= j>=5?--num:++num;
 				}
 				else

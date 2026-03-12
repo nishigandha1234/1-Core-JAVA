@@ -7,7 +7,7 @@ class Pattern41
             if(i==1 || i==5)
                 System.out.println("1");
             else if(i==2 || i==4)
-                System.out.println("3 3");
+                System.out.println("3 3 3");
             else
                System.out.println("5 5 5 5 5");
 		}

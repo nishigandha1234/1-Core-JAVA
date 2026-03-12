@@ -6,7 +6,7 @@ class Pattern14
 		{
 			for(int j = 1 ; j <=7; j++)
 			{
-				if((j <= 8-i && i <= 7) || (j <= i-6 && i >=8)) 
+				if((j <= 8-i && i <= 7) || (j <= i-6 && i > 7)) 
 				{
 					System.out.print("*");
 				}

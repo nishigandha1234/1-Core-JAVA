@@ -6,10 +6,12 @@ class Pattern23
 		{
 			for(int j = 1 ; j <= 5 ; j++)
 			{
-				if((i >= j && i<=5) || (j<= 10-i && i>5))
+				if((j <= i && i<=5) || (j <= 10-i && i>5))
 				{
-					if(j==1 || j==3 || j==5) System.out.print("# ");
-					else System.out.print("* ");
+					if(j==1 || j==3 || j==5)
+						System.out.print("# ");
+					else 
+						System.out.print("* ");
 				}
 				else
 				{

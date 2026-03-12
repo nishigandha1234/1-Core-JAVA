@@ -13,15 +13,21 @@ class PairsOfSum
 		}
 		System.out.println("Enter the Target Element : ");
 		int target = sc.nextInt(); //6
-		
-		for(int i = 0 ; i < ar.length ; i++)
+		int count = 0 ;
+		for(int i = 0 ; i < ar.length-1 ; i++)
 		{
-			if(ar[i]+ ar[i+1] == target)
+			for(int j = i+1 ; j < ar.length ; j++)
 			{
-				
+				if(ar[i] + ar[j] == target)
+				{
+					count++;
+				}
 			}
 		}
-		
+		if(count > 0)
+		{
+			System.out.println("Total pairs = "+count);
+		}
 		
 	}
 }

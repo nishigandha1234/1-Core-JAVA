@@ -12,7 +12,8 @@ public class Pattern1
 		{
 			for(int j = 1 ; j <= n ; j++)
 			{
-				if(j == 1 || i == 5 || j == 5 || i == 1)
+				System.out.print("* ");
+				/*				if(j == 1 || i == 5 || j == 5 || i == 1)
 				{
 					System.out.print("*");
 				}
@@ -20,6 +21,7 @@ public class Pattern1
 				{
 					System.out.print(" ");
 				}
+				*/
 			}
 			System.out.println();
 		}
