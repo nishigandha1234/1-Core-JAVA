@@ -7,7 +7,7 @@ class StringReverseApp
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String : ");
 		String str = sc.nextLine();
-		String word = " ":
+		String word = " ";
 		
 	}
 }
