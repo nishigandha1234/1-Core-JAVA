@@ -14,11 +14,11 @@ class StringReverseApp
 			char ch = str.charAt(i);
 			if(ch != ' ')
 			{
-				word = ch + word;
+				word += ch ;
 			}
 			else
 			{
-				System.out.printS(word + " ");
+				System.out.print(word + " ");
 				word = "";
 			}
 		}
