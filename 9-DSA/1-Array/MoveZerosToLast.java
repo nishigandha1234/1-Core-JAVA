@@ -11,6 +11,9 @@ class MoveZerosToLast
 		{
 			ar[i] = sc.nextInt();
 		}
-		
+		for(int i = 0 ; i < ar.length ; i++)
+		{
+			
+		}			
 	}
 }
