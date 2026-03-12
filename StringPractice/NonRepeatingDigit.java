@@ -7,14 +7,19 @@ class NonRepeatingDigit
 		int i ;
 		for(i = 0 ; i < str.length()-1; i++)
 		{
-			if(str.charAt(i) == str.charAt(i+1))
+			for(int j = 0 ; j < str.length() ; j++)
 			{
-				count++;
+				if(str.charAt(i) == str.charAt(j))
+				{
+					count++;
+				}
 			}
 		}
+		//System.out.println(str.charAt(i) + " : " + count);
 		if(count == 1)
 		{
 			System.out.println(str.charAt(i));
+			break;
 		}			
 	}
 }
