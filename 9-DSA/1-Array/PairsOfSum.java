@@ -14,7 +14,13 @@ class PairsOfSum
 		System.out.println("Enter the Target Element : ");
 		int target = sc.nextInt(); //6
 		
-		
+		for(int i = 0 ; i < ar.length ; i++)
+		{
+			if(ar[i]+ ar[i+1] == target)
+			{
+				
+			}
+		}
 		
 		
 	}
