@@ -6,8 +6,13 @@ class StringReverseApp
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter String : ");
-		String str = sc.nextLine();
-		String word = " ";
+		String str = sc.nextLine();// i Love India
+		String word = "";
+		
+		for(int i = 0 ; i < str.length() ; i++)
+		{
+			char ch = str.charAt(i);
+		}
 		
 	}
 }
