@@ -23,9 +23,10 @@ class MoveZerosToLast
 		{
 			ar[index++] = 0;
 		}
+		System.out.println("After Removing Zeros in Array : ");
 		for(int i = 0 ; i < ar.length ; i++)
 		{
-			System.out.println(ar[i] + " ");
+			System.out.print(ar[i] + " ");
 		}
 	}
 }
