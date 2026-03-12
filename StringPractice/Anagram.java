@@ -11,6 +11,13 @@ class Anagram
 		Arrays.sort(a);
 		Arrays.sort(b);
 		
-		
+		if(Arrays.equals(a,b))
+		{
+			System.out.println("Anagram"):
+		}
+		else
+		{
+			System.out.println("NOT Anagram"):
+		}
 	}
 }
