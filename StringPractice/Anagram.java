@@ -8,7 +8,9 @@ class Anagram
 		char[] a = str1.toCharArray();
 		char[] b = str2.toCharArray();
 		
-		a.sort();
-		b.sort();
+		Arrays.sort(a);
+		Arrays.sort(b);
+		
+		
 	}
 }
