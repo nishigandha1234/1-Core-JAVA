@@ -23,5 +23,9 @@ class MoveZerosToLast
 		{
 			ar[index++] = 0;
 		}
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			System.out.println(ar[i] + " ");
+		}
 	}
 }
