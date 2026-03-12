@@ -4,29 +4,23 @@ class MoveZerosToLast
 {
 	public static void main(String x[])
 	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Values in an Array : ");
-		int ar[] = new int[5];
-		for(int i = 0 ; i < ar.length ; i++)
-		{
-			ar[i] = sc.nextInt();
-		}
-		int index = 0;
-		for(int i = 0 ; i < ar.length ; i++)
-		{
-			if(ar[i] != 0)
-			{
-				ar[index++] = ar[i];
-			}
-		}			
-		while(index < ar.length)
-		{
-			ar[index++] = 0;
-		}
-		System.out.println("After Removing Zeros in Array : ");
-		for(int i = 0 ; i < ar.length ; i++)
-		{
-			System.out.print(ar[i] + " ");
-		}
+		
 	}
+	 public static void moveZeroes(int[] nums) {
+        int index = 0;
+
+        for(int i = 0; i < nums.length; i++)
+        {
+            if(nums[i] != 0)
+            {
+                nums[index++] = nums[i];
+            }
+        }
+
+        while(index < nums.length)
+        {
+            nums[index] = 0;
+            index++;   // missing line
+        }
+    }
 }
