@@ -5,7 +5,8 @@ class MoveZerosToLast
 {
 	public static void main(String x[])
 	{
-		System.out.println(moveZeroes([0,1,0,3,12]);
+		int[] nums = {0,1,0,3,12};
+		moveZeroes(nums);
 	}
 	public static void moveZeroes(int[] nums) 
 	{
