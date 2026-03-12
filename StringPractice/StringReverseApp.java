@@ -16,6 +16,10 @@ class StringReverseApp
 			{
 				word += ch;
 			}
+			else
+			{
+				
+			}
 		}
 		
 	}
