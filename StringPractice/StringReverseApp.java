@@ -16,6 +16,12 @@ class StringReverseApp
 			{
 				word = ch + word;
 			}
+			else
+			{
+				System.out.print(word + " ");
+				word = "";
+			}
 		}
+		System.out.print(word+" ");
 	}
 }
