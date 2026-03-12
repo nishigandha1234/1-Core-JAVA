@@ -11,11 +11,10 @@ class MajorityElement
 		{
 			a[i] = sc.nextInt();
 		}
+		
 		int majority = -1;
 		
-		
-		int i;
-		for(i = 0 ; i < a.length-1 ; i++)
+		for(int i = 0 ; i < a.length-1 ; i++)
 		{
 			int count = 0;
 			for(int j = i+1 ; j < a.length ; j++)
