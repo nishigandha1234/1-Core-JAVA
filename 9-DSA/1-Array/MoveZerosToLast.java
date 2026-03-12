@@ -16,7 +16,7 @@ class MoveZerosToLast
 		{
 			if(ar[i] != 0)
 			{
-				ar[index+-] = ar[i];
+				ar[index+] = ar[i];
 			}
 		}			
 		while(index < ar.length)
