@@ -12,7 +12,9 @@ class PairsOfSum
 			ar[i] =sc.nextInt();
 		}
 		System.out.println("Enter the Target Element : ");
-		int target = sc.nextInt();
+		int target = sc.nextInt(); //6
+		
+		
 		
 		
 	}
