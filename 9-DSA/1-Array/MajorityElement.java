@@ -19,8 +19,7 @@ class MajorityElement
 				count++;
 			}
 			if(count > a[i]/2)
-			System.out.println("Majority Element : " + a[i]+" ");
+				System.out.println("Majority Element : " + a[i]+" ");
 		}
-		//if(count > 
 	}
 }
