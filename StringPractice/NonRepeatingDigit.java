@@ -5,7 +5,7 @@ class NonRepeatingDigit
 		String str = "Swiss";
 		int count = 0;
 		int i ;
-		for(i = 0 ; i < str.length()-1; i++)
+		for(i = 0 ; i < str.length(); i++)
 		{
 			for(int j = 0 ; j < str.length() ; j++)
 			{
