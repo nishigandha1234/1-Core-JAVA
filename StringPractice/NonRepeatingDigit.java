@@ -4,7 +4,7 @@ class NonRepeatingDigit
 	{
 		String str = "Swiss";
 		int count = 0;
-		int i 
+		int i ;
 		for(i = 0 ; i < str.length(); i++)
 		{
 			if(str.charAt(i) == str.charAt(i+1))
