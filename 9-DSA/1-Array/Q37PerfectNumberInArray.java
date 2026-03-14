@@ -17,7 +17,7 @@ class Q37PerfectNumberInArray
 		for(int i = 0 ; i < a.length ; i++)
 		{
 			sum = 0;
-			for(int j = 1 ; j < a[i] j++)
+			for(int j = 1 ; j < a[i] ; j++)
 			{
 				if(a[i] % j == 0)
 				{
