@@ -16,6 +16,6 @@ class FrequencyOfElement
 				count =1 ;
 			}
 		}
-		System.out.println(a[i-1] + count);
+		System.out.println(a[i-1] + count)
 	}
 }
