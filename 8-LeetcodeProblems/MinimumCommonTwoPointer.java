@@ -1,7 +1,7 @@
 //2540. Minimum Common Value
 //Given two integer arrays nums1 and nums2, sorted in non-decreasing order, return the minimum integer common to both arrays. If there is no common integer amongst nums1 and nums2, return -1. Note that an integer is said to be common to nums1 and nums2 if both arrays have at least one occurrence of that integer.
 
-class MinimumCommon
+class MinimumCommonTwoPointer
 {
 	public static void main(String x[])
 	{
@@ -11,14 +11,20 @@ class MinimumCommon
 	}
 	public static int getCommon(int[] nums1, int[] nums2) 
 	{
-		for(int i = 0 ; i < nums1.length ; i++)
+		int i = 0 ;
+		int j = 0 ;
+		while(i < nums1.length && j < nums2.length)
 		{
-			for(int j = 0 ; j < nums2.length ; j++)
+			if(nums1[i] == nums2[j])
 			{
-				if((nums1[i] == nums2[j]))
-				{
-					 return nums1[i];
-				}
+				return nums1[i];
+			}				
+			else if(nums1[i] < nums2[j])
+			{
+				i++;
+			}
+			else{
+				j++;;
 			}
 		}
 		return -1;

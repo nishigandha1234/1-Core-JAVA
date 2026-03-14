@@ -5,23 +5,23 @@ class MoveZerosToLast
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Values in an Array : ");
+		System.out.println("Enter the Values in an Array : "); //}
 		int ar[] = new int[5];
 		for(int i = 0 ; i < ar.length ; i++)
 		{
 			ar[i] = sc.nextInt();
 		}
-		int index = 0;
+		int j = 0;
 		for(int i = 0 ; i < ar.length ; i++)
 		{
 			if(ar[i] != 0)
 			{
-				ar[index++] = ar[i];
+				ar[j++] = ar[i];
 			}
 		}			
-		while(index < ar.length)
+		while(j < ar.length)
 		{
-			ar[index++] = 0;
+			ar[j++] = 0;
 		}
 		System.out.println("After Removing Zeros in Array : ");
 		for(int i = 0 ; i < ar.length ; i++)

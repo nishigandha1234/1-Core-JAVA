@@ -1,4 +1,4 @@
-class FrequencyOfElement
+class Q27FrequencyOfElement
 {
 	 public static void main(String x[])
 	{
@@ -11,11 +11,11 @@ class FrequencyOfElement
 				++count;
 			}
 			else{
-				System.out.printf("%d --->%d\n",a[i-1],count);
+				System.out.println(a[i-1]+"--->"+count);
 				count=1;
 			}
 		}
-		  System.out.printf("%d --->%d\n",a[i-1],count);
+		System.out.println(a[i-1]+"--->"+count);
 	}
 
 }
