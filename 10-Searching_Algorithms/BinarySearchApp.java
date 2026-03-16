@@ -37,7 +37,7 @@ class BinarySearchApp
 			System.out.println("Value found at index : "+ index);
 		}
 		else{
-			System.out.println("Value NOT found...!");;;;;
+			System.out.println("Value NOT found...!");;;;
 		}
 	}
 }
