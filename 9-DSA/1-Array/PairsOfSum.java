@@ -26,7 +26,7 @@ class PairsOfSum
 		}
 		if(count > 0)
 		{
-			System.out.println("Total pairs = "+count)
+			System.out.println("Total pairs = "+count);
 		}
 		
 	}
