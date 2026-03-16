@@ -13,18 +13,26 @@ class Q14RemoveDuplicateElements
 		}
 		int k = 0;
 		int ans[] = new int[a.length];
-		for(int i = 0 ; i < a.length-1 ; i++)
+		
+		for(int i = 0 ; i < a.length ; i++)
 		{
-			for(int j = i+1 ; j < a.length-1 ; j++)
+			boolean flag = false;
+			for(int j = i+1 ; j < a.length ; j++)
 			{
-				if(a[i] != a[j])
+				if(a[i] == a[j])
 				{
-					ans[k++] = a[i];
+					flag = true;
+					break;
 				}
 			}
+			if( !flag )
+			{
+				ans[k++] = a[i];
+			}
 		}
+		
 		System.out.println("After Removing Duplicate Elements : ");
-		for(int i = 0 ; i < ans.length ; i++)
+		for(int i = 0 ; i < k ; i++)
 		{
 			System.out.print(ans[i]+" ");
 		}
