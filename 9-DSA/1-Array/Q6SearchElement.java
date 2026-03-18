@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SearchElement
+class Q6SearchElement
 {
 	public static void main(String x[])
 	{

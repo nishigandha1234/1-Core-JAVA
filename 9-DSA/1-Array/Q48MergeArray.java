@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MergeArray
+class Q48MergeArray
 {
 	public static void main(String x[])
 	{

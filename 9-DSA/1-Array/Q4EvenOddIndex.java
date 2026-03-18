@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class EvenOddIndex
+class Q4EvenOddIndex
 {
 	public static void main(String x[])
 	{

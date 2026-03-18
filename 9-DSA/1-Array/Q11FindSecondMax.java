@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FindSecondMax
+public class Q11FindSecondMax
 {
 	public static void main(String x[])
 	{

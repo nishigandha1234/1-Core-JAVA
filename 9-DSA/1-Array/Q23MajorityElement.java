@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MajorityElement
+class Q23MajorityElement
 {
 	public static void main(String x[])
 	{

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class FindElementInArray
+class Q21FindElementInArray
 {
 	public static void main(String x[])
 	{

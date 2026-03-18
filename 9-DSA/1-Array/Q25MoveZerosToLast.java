@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MoveZerosToLast
+class Q25MoveZerosToLast
 {
 	public static void main(String x[])
 	{

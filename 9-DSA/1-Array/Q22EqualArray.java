@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class EqualArray
+class Q22EqualArray
 {
 	public static void main(String x[])
 	{

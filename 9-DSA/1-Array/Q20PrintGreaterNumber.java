@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PrintGreaterNumber
+class Q20PrintGreaterNumber
 {
 	public static void main(String x[])
 	{

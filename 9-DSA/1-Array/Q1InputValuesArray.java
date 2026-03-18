@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class InputValueArray
+class Q1InputValuesArray
 {
 	public static void main(String x[])
 	{
@@ -10,12 +10,12 @@ class InputValueArray
 		
 		for(int i = 0 ; i < ar.length ; i++)
 		{
-			ar[i] = sc.nextInt();
+			int ar[i] = sc.nextInt();
 		}
-	
+		
 		for(int i = 0 ; i < ar.length ; i++)
 		{
-			System.out.print(ar[i] +" ");
+			System.out.println(ar[i]);
 		}
 	
 	}

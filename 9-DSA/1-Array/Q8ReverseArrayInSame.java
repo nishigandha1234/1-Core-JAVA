@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ReverseArrayInSame
+class Q8ReverseArrayInSame
 {
 	public static void main(String x[])
 	{

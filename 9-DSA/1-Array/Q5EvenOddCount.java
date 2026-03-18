@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class EvenOddCount
+class Q5EvenOddCount
 {
 	public static void main(String x[])
 	{

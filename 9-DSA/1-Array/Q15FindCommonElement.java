@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class FindCommonElement
+class Q15FindCommonElement
 {
 	public static void main(String x[])
 	{

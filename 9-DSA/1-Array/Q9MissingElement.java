@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MissingElement
+class Q9MissingElement
 {
 	public static void main(String x[])
 	{

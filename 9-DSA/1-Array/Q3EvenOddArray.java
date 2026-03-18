@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class EvenOddArray
+class Q3EvenOddArray
 {
 	public static void main(String x[])
 	{
