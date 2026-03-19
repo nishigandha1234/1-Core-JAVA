@@ -11,5 +11,6 @@ class FindMax
 				max = a[i];
 			}
 		}
+		System.out.println("Max : "+ max);
 	}
 }
