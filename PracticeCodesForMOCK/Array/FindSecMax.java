@@ -17,7 +17,7 @@ class FindSecMax
 				secMax = a[i];
 			}
 		}
-		System.out.println(secMax);
+		System.out.println(secMax);;
 		
 	}
 
