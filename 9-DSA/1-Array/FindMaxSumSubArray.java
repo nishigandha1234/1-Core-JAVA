@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Scann
+import java.util.Scan
 class FindMaxSumSubArray
 {
 	public static void main(String x[])
