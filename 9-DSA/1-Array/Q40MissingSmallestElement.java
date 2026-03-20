@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Q38MissingSmallestElement
+class Q40MissingSmallestElement
 {
     public static void main(String[] args) {
         int[] a = {0,1,2,4,5};

@@ -1,32 +1,26 @@
 import java.util.*;
 
+import java.util.*;
+
 class Q54TripletsArray
 {
-    public static void main(String x[])
-    {
-        int[] a = {-1, 0, 1, 2, -1, -4};
-		
-        Arrays.sort(a); // important step
-        ArrayList<String> list = new ArrayList<>();
-		
-        for(int i = 0 ; i < a.length ; i++)
-        {
-            for(int j = i+1 ; j < a.length ; j++)
-            {
-                for(int k = j+1 ; k < a.length ; k++)
-                {
-                    if(a[i] + a[j] + a[k] == 0)
-                    {
-                        String triplet = "[" + a[i] + "," + a[j] + "," + a[k] + "]";
+    public static void main(String[] args) {
+        int a[] = {-1,0,1,2,-1,-4};
+        Arrays.sort(a);
 
-                        if(!list.contains(triplet)) // avoid duplicates
-                        {
-                            list.add(triplet);
-                        }
-                    }
+        for(int i=0;i<a.length-2;i++){
+            int l=i+1, r=a.length-1;
+
+            while(l<r){
+                int sum = a[i]+a[l]+a[r];
+
+                if(sum==0){
+                    System.out.println(a[i]+" "+a[l]+" "+a[r]);
+                    l++; r--;
                 }
+                else if(sum<0) l++;
+                else r--;
             }
         }
-        System.out.println(list);
     }
 }
