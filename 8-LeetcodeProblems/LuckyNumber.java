@@ -7,7 +7,7 @@ class LuckyNumber
 	{
 		int[] arr = {1,2,2,3,3,3};
 		System.out.println(findLucky(arr));
-		System.ou
+		System.
 	}
 	public static int findLucky(int[] arr)
 	{
