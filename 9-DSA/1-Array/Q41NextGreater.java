@@ -12,7 +12,7 @@ class Q41NextGreater
                     next = a[j];
                     break;
                 }
-            }
+			}
             System.out.println("Next greater of " + a[i] + " is: " + next);
         }
     }
