@@ -11,7 +11,7 @@ class IntersectionArray
 	}
 	public static int[] intersection(int[] nums1, int[] nums2)
 	{
-		int[] ans = new int[nu
+		int[] ans = new int[
 		int[] ans = new int[nums1.length];
 		int k = 0 ;
 		for(int i = 0 ; i < nums1.length ; i++)
