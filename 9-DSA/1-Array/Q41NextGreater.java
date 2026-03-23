@@ -14,7 +14,7 @@ class Q41NextGreater
                 }
             }
 
-            System.out.println("Next greater of " + a[i] + " is: 
+            System.out.println("Next greater of " + a[i] + " is
             System.out.println("Next greater of " + a[i] + " is: " + next);
         }
     }
