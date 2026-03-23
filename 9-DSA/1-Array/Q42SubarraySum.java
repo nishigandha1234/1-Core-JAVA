@@ -18,7 +18,7 @@ class Q42SubarraySum {
                 sum += a[j];
 
                 if(sum == target) {
-                    System.out.print("[" + i + ".." + j + "] -- { ");
+                    System.out.print("[" + i + "to" + j + "] -- { ");
                     
                     for(int k = i; k <= j; k++) {
                         System.out.print(a[k] + " ");

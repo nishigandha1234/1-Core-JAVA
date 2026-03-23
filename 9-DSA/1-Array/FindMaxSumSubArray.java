@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import
 
 class FindMaxSumSubArray
 {
@@ -19,7 +18,7 @@ class FindMaxSumSubArray
 			int sum = 0 ;
 			for(int j = i ; j < ar.length ; j++)
 			{
-				sum+= ar[j];
+				sum += ar[j];
 				if(sum > max)
 				{
 					max = sum;
