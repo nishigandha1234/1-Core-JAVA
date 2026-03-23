@@ -3,5 +3,8 @@
 
 class IntersectionArray
 {
-	
+	public static void main(String x[])
+	{
+		
+	}
 }
