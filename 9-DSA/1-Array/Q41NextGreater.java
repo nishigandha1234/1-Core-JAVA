@@ -13,7 +13,7 @@ class Q41NextGreater
                     break;
                 }
             }
-            System.out
+            System.o
             System.out.println("Next greater of " + a[i] + " is: " + next);
         }
     }
