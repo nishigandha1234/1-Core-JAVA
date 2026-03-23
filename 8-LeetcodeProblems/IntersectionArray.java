@@ -13,6 +13,7 @@ class IntersectionArray
 	{
 		int[] ans = new int[nums1.length];
 		int k = 0 ;
+		int k = 0 ;
 		for(int i = 0 ; i < nums1.length ; i++)
 		{
 			boolean flag = false;
