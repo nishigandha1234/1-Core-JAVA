@@ -13,10 +13,11 @@ class SubArraySumEqualstoK
 	{
 		int count = 0;
 		int n = nums.length;
-        for(int i = 0 ; i <  ; i++)
+		
+        for(int i = 0 ; i < n-k ; i++)
 		{
 			int sum = 0;
-			for(int j = i ; j < nums.length ; j++)
+			for(int j = i ; j < (i+k) ; j++)
 			{
 				sum += nums[j];
 				if(sum == k)
