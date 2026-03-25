@@ -22,7 +22,7 @@ class SubArraySumEqualstoK
 				sum += nums[j];
 				if(sum == k)
 				{
-					count++
+					count+
 				}
 			}
 		}
