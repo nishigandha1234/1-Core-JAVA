@@ -3,7 +3,6 @@
 
 import java.util.*;
 
-
 class RunningSumOfArray
 {
 	public static void main(String x[])
