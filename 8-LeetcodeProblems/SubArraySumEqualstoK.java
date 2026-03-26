@@ -6,7 +6,7 @@ class SubArraySumEqualstoK
 	public static void main(String x[])
 	{
 		int[] nums = {1,2,3,4,5};
-		int k = 5;
+		int k = 4;
 		System.out.println(subarraySum(nums, k));
 	}
 	public static int subarraySum(int[] nums, int k) 
@@ -14,10 +14,10 @@ class SubArraySumEqualstoK
 		int count = 0;
 		int n = nums.length;
 		
-        for(int i = 0 ; i < (n-k) ; i++)
+        for(int i = 0 ; i < n ; i++)
 		{
 			int sum = 0;
-			for(int j = i ; j < (i+k) ; j++)
+			for(int j = i ; j < n ; j++)
 			{
 				sum += nums[j];
 				if(sum == k)
