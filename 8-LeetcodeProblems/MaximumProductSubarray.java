@@ -18,7 +18,7 @@ class MaximumProductSubarray
 			product *= nums[i];
 			if(product > max )
 				max = product;
-			if(product 
+			if(produ
 			if(product == 0)
 				product=1;
 		}
