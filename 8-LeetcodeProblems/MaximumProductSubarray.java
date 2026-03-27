@@ -19,6 +19,7 @@ class MaximumProductSubarray
 			if(product > max )
 				max = product;
 			if(product == 0)
+			if(product == 0)
 				product=1;
 		}
 		product = 1;
