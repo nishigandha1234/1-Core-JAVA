@@ -6,6 +6,7 @@ class ThreeDivisors
 	public static void main(String x[])
 	{
 		int n = 4;
+		int result 
 	}
 	public static boolean isThree(int n) 
     {
