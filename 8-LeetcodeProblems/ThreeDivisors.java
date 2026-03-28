@@ -8,7 +8,7 @@ class ThreeDivisors
 		int n = 4;
 		int result = isThree(n);
 		System.out.println(result);
-		System.out.pri
+		System.out.p
 	}
 	public static boolean isThree(int n) 
     {
