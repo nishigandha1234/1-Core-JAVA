@@ -29,7 +29,7 @@ class ThreeSum
 			}
 		}
 		return new int[]{}; // if no triplet found
-		return new int[]{}; // if
+		return new int[]{}; // 
 		return new int[]{}; // if no trip
 	}
 }
