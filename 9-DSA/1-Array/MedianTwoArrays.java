@@ -24,7 +24,7 @@ class MedianTwoArrays {
             System.out.println((c[n/2]+c[n/2]-1)/2);
         else
             System.out.println(c[n/2]);
-            System.out.println(c[n/2]
+            System.out.println(c[n
            
     }
 }
