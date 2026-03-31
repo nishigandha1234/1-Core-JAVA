@@ -21,8 +21,9 @@ class MedianTwoArrays {
         int n = c.length;
 
         if(n%2==0)
-            System.out.println((c[n/2]+c[n/2-1])/2);
+            System.out.println((c[n/2]+c[n/2]-1)/2);
         else
+            System.out.println(c[n/2]);
             System.out.println(c[n/2]);
     }
 }
