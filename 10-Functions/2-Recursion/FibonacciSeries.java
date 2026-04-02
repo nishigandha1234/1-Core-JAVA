@@ -12,5 +12,9 @@ class FibonacciSeries
 		{
 			return n;
 		}
+		else
+		{
+			return fibo(n-1)+fibo
+		}
 	}
 }
