@@ -17,7 +17,7 @@ class FactorialRecursion
 		}
 		else{
 			 System.out.println("Factorial  "+fact);
-			 System.out.println("Factoria
+			 System.out.println("Facto
 		}
 	}
 }
