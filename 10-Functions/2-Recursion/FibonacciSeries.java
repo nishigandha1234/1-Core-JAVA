@@ -5,6 +5,10 @@ class FibonacciSeries
 	public static void main(String x[])
 	{
 		int limit = 5;
+		for(int i = 0 ; i <= limit ; i++)
+		{
+			
+		}
 	}
 	public static int fibo(int n)
 	{
