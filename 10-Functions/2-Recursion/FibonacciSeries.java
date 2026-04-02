@@ -7,7 +7,7 @@ class FibonacciSeries
 		int limit = 5;
 		for(int i = 0 ; i <= limit ; i++)
 		{
-			
+			System.out.println(fibo(n));
 		}
 	}
 	public static int fibo(int n)
