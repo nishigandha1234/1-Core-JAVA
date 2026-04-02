@@ -4,7 +4,7 @@ class FibonacciSeries
 {
 	public static void main(String x[])
 	{
-		
+		int limit = 5;
 	}
 	public static int fibo(int n)
 	{
@@ -14,7 +14,7 @@ class FibonacciSeries
 		}
 		else
 		{
-			return fibo(n-1)+fibo
+			return fibo(n-1)+fibo(n-2);
 		}
 	}
 }
