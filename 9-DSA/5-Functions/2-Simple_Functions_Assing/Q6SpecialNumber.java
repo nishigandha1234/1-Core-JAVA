@@ -13,8 +13,10 @@ class Q6SpecialNumber
 		while(temp != 0)
 		{
 			int rem = temp % 10;
-			sum += rem;
+			sum += rem; 
+			System.out.println(sum);
 			prod *= rem;
+			System.out.println(prod);
 			temp /= 10;
 		}
 		if(sum == prod)
