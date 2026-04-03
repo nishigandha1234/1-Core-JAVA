@@ -9,23 +9,17 @@ class Q6SpecialNumber
 	public static void specialNumber(int n)
 	{
 		int sum = 0 , prod = 1;
-		int temp = n ;
+		int temp = n; 
 		while(temp != 0)
 		{
 			int rem = temp % 10;
 			sum += rem; 
-			System.out.println(sum);
+			
 			prod *= rem;
-			System.out.println(prod);
+			
 			temp /= 10;
 		}
-		if(sum == prod)
-		{
-			System.out.println("Equal");
-		}
-		else
-		{
-			System.out.println("NOT Equal");
-		}
+		System.out.println(sum);
+		System.out.println(prod);
 	}
 }
