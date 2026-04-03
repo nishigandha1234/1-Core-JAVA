@@ -3,14 +3,11 @@ class Q3PrintGreaterNumber
 {
 	public static void main(String x[])
 	{
-		int n = 5;
-		print(n);
+		int n1 = 5, n2 = 10;
+		print(n1,n2);
 	}
-	public static void print(int n)
+	public static void print(int n1, int n2)
 	{
-		for(int i = 1 ; i <= 5 ; i++)
-		{
-			System.out.print(i+" ");
-		}
+		if(n1 > n2 ) System.out.println(n1 + "is Greater"):
 	}
 }
