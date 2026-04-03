@@ -8,6 +8,7 @@ class Q3PrintGreaterNumber
 	}
 	public static void print(int n1, int n2)
 	{
-		if(n1 > n2 ) System.out.println(n1 + "is Greater"):
+		if(n1 > n2 ) System.out.println(n1 + "is Greater");
+		else System.out.println(n2 + "is Greater");
 	}
 }
