@@ -14,9 +14,7 @@ class Q6SpecialNumber
 		{
 			int rem = temp % 10;
 			sum += rem; 
-			
 			prod *= rem;
-			
 			temp /= 10;
 		}
 		System.out.println(sum);
