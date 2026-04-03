@@ -3,7 +3,7 @@ class Q6SpecialNumber
 {
 	public static void main(String x[])
 	{
-		int n = 54;
+		int n = 59;
 		specialNumber(n);
 	}
 	public static void specialNumber(int n)
@@ -13,11 +13,17 @@ class Q6SpecialNumber
 		while(temp != 0)
 		{
 			int rem = temp % 10;
-			sum += rem; 
+			sum += rem;
 			prod *= rem;
 			temp /= 10;
 		}
-		System.out.println(sum);
-		System.out.println(prod);
+		if(sum + prod == n)
+		{
+			System.out.println("Special Number");
+		}
+		else
+		{
+			System.out.println("NOT Special Number");
+		}
 	}
 }
