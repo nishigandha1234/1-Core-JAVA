@@ -18,7 +18,7 @@ class Q6SpecialNumber
 			prod *= rem;
 			System.out.println(prod);
 			temp /= 10;
-		}
+		
 		if(sum == prod)
 		{
 			System.out.println("Equal");
