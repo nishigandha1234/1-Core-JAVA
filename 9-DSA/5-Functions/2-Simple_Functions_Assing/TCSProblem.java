@@ -47,6 +47,6 @@ class TCSProblem
         }
 
         System.out.println("Most Frequent: " + maxElement);
-        System.out.println("Most Fr
+        System.out.println("Most 
     }
 }
