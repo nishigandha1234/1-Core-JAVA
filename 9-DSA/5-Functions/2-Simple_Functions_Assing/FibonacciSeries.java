@@ -1,4 +1,4 @@
-class 	FibonacciSeries
+class FibonacciSeries
 {
 	public static void main(String x[])
 	{
