@@ -10,7 +10,7 @@ class ThreeSum
 
     for(int i = 0; i < result.length; i++)
     {
-        System.o
+        Sys
         System.out.print(result[i] + " ");
 	}
 	public static int[] threeSum(int[] nums)
