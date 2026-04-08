@@ -19,7 +19,7 @@ class ConvertToBinary
         }
 		for(int i = 0 ; i < index ; i++)
 		{
-			System.ou
+			Syste
 			System.out.print(binary[i]+" " );
 		}
     }
