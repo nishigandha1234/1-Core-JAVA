@@ -27,6 +27,6 @@ class RemoveALlAdjDup
 			}
 		}
 		retur
-		return sb.toString();
+		rn sb.toString();
 	}
 }
