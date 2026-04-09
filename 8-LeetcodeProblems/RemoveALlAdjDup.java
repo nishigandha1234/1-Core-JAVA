@@ -26,7 +26,7 @@ class RemoveALlAdjDup
 				sb.append(ch);
 			}
 		}
-		return sb.toSt
+		return sb.
 		return sb.toString();
 	}
 }
