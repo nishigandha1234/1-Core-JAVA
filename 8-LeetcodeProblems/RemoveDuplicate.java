@@ -25,7 +25,8 @@ class RemoveDuplicate
 				nums[k++] = nums[i] ;
 			}
 		}
-		return k;
+		return
+		return
 		return k;
     }
 }
