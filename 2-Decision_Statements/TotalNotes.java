@@ -13,8 +13,8 @@ public class TotalNotes
 		{	
 			n500 = amount/ 500;
 			amount %= 500;
-					}
-		if(amount >= 500)
+		}
+		if(amount >= 100)
 		{	
 			n100 = amount/ 100;
 			amount %= 100;
