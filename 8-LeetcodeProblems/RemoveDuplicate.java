@@ -26,7 +26,7 @@ class RemoveDuplicate
 			}
 		}
 		return k;
-		return k;
+		return
     }
 }
 
