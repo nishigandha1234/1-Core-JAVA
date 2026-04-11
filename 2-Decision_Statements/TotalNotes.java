@@ -33,7 +33,7 @@ public class TotalNotes
 			n5 = amount/ 5;
 			amount %= 5;
 		}if(amount >= 2)
-		{	
+		{	 
 			n2 = amount/2;
 			amount %= 2;
 		}
