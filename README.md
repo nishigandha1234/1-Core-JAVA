@@ -1,4 +1,4 @@
-# ☕ 1-Core-JAVA
+# ☕ 1-Core-JAVA..!
 
 Welcome to **1-Core-JAVA** 👩‍💻
 This repository contains my complete **Core Java learning journey**, including basic programs, pattern problems, number series, arrays, and LeetCode solutions.
