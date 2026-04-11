@@ -27,7 +27,7 @@ class LuckyNumber
 				luckyNum = Math.max(luckyNum, arr[i]);
 			}
 		}
-		retur
+		re
 		return luckyNum;
 	}
 }
