@@ -20,6 +20,6 @@ class Q43MaxDiff {
 
         System.out.println("Elements: " + x + ", " + y);
         System.out.println("Max Difference: " + maxDiff);
-        System.out.println("Max Difference: " + maxDiff);
+        System.out.println("Max Difference: " + maxDiff)
     }
 }
