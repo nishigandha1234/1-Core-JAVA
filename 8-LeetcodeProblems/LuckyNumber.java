@@ -28,6 +28,6 @@ class LuckyNumber
 			}
 		}
 		return luckyNum;
-		return luc
+		return lu
 	}
 }
