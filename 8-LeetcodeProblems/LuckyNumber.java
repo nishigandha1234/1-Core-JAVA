@@ -28,6 +28,5 @@ class LuckyNumber
 			}
 		}
 		return luckyNum;
-		
 	}
 }
