@@ -78,7 +78,7 @@ class LinearQueue
 			for(int i = front ; i <= rear ; i++)
 			{
 				System.out.print(queue[i]+" ");
-				System.out.		
+				System.out		
 			}
 		}
 	}
