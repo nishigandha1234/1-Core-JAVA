@@ -24,7 +24,7 @@ class Find1stlastPosInSortArr
 		if(nums.length == 1)
 		{
 			return new int[]{0,0};
-			retur
+			ret
 		}
 		return new int[]{-1,-1};
     }
