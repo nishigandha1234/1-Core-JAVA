@@ -12,7 +12,7 @@ class CircularQueue
 		Scanner sc = new Scanner(System.in);
 		do
 		{
-			System.out.println("INSERT : "); 
+			System.out.println("\nINSERT : "); 
 			System.out.println("DELETE : "); 
 			System.out.println("DISPLAY : "); 
 			System.out.println("ENTER YOUR CHOICE : ");
@@ -30,6 +30,7 @@ class CircularQueue
 				break;
 				
 				case 3 :
+				display();
 				break;
 				
 				case 4 :
@@ -52,34 +53,51 @@ class CircularQueue
 		}
 		else
 		{
+			if(front == -1)
+			{
+				front = 0;
+			}
 			rear = (rear+1)%queue.length;
 			queue[rear] = value;
 		}
 	}
 	public static void delete()
 	{
-		if( (rear+1)%queue.length == front )
+		if(front == -1 )
 		{
-			System.out.println("Queue Is Full...!");
+			System.out.println("Queue Is Empty...!");
 		}
 		else
 		{
-			rear = (rear+1)%queue.length;
 			int value = queue[rear];
 			System.out.println("Removed Value is : "+ value);
+			if(front == rear)
+			{
+				System.out.println("Queue is Empty...!");
+				front=rear=-1;
+			}
+			else{
+				front = (front+1)%queue.length;
+			}
 		}
 	}
 	public static void display()
 	{
-		if( (rear+1)%queue.length == front )
+		if(front == -1 )
 		{
-			System.out.println("Queue Is Full...!");
+			System.out.println("Queue Is Empty...!");
 		}
 		else
 		{
-			for(int i = front ; i < rear ; i++)
+			int i = front;
+			while(true)
 			{
 				System.out.print(queue[i]+" ");
+				if(i == rear)
+				{
+					break;
+				}
+				i = (i+1) % queue.length;
 			}
 		}
 	}
