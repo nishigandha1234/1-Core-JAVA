@@ -30,7 +30,7 @@ class Shift90Degree
 		{  
 				for(int j=0; j<ans[i].length; j++) //column 
 				{     
-					Syste
+					Syst
 					System.out.printf("%d\t",ans[i][j]);
 				}
 				System.out.println();
