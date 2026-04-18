@@ -38,7 +38,6 @@ class SortColumnData
 			{
 				System.out.print(a[i][j]+" ");			
 			}
-			System.
 			System.out.println();
 		}
 	}
