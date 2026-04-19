@@ -45,7 +45,7 @@ class MinSumOfLengths
             }
         }
 
-        return ans == Integer.
+        return ans == Integer
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
