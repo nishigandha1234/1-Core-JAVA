@@ -44,7 +44,7 @@ class MinSumOfLengths
                 best[right] = Math.min(best[right], best[right - 1]);
             }
         }
-        return ans == Integer.MAX
+        return ans == Integer.MA
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
