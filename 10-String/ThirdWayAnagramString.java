@@ -33,7 +33,7 @@ class ThirdWayAnagramString
 				}
 			}
 			if(flag) System.out.println("Anagram");
-			else Syste
+			else Sys
 			else System.out.println("NOT Anagram");
 		}
 	}
