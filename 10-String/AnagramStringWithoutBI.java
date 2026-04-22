@@ -49,7 +49,7 @@ class AnagramStringWithoutBI
 				}
 			}
 			if(flag) System.out.println("Anagram");
-			else System.out.println("NOT A
+			else System.out.println("NOT 
 			else System.out.println("NOT Anagram");
 		}
 	}
