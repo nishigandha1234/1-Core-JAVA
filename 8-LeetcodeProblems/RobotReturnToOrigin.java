@@ -35,7 +35,7 @@ class RobotReturnToOrigin
 				return false;
 			}
 		}
-		re
+		
 		return up == down && left == right;
     }
 }
