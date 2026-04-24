@@ -42,7 +42,7 @@ class TargetSumUsingBinarySearch
 				}
 			}
 			return new int[]{-1, -1};
-			return n
+			return
 		}
 	}
 }
