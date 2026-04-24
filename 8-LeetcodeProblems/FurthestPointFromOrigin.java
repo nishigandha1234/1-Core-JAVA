@@ -5,7 +5,7 @@ class FurthestPointFromOrigin
 {
 	public static void main(String x[])
 	{
-		String moves = "L_RL__R";
+		String moves = "R_";
 		System.out.println(furthestDistanceFromOrigin(moves));
 	}
 	public static int furthestDistanceFromOrigin(String moves) 
@@ -28,7 +28,7 @@ class FurthestPointFromOrigin
 				_Count++;
 			}
 		}
-		int distance = Math.abs((lCount - rCount)+ (_Count)) ;
-		return distance
+		int distance = Math.abs(lCount - rCount)+ (_Count) ;
+		return distance;
     }
 }
