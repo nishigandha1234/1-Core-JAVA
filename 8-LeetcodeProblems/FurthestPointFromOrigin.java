@@ -28,6 +28,7 @@ class FurthestPointFromOrigin
 				_Count++;
 			}
 		}
-		int distance
+		int distance = Math.abs((lCount - rCount)+ (_Count)) ;
+		return distance
     }
 }
