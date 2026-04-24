@@ -31,9 +31,9 @@ class TargetSumUsingBinarySearch
 				
 				if(ar[mid] == required)
 				{
-					return true;
+					return new int[]{i, mid};
 				}
-				else if(ar[mid] < target)
+				else if(ar[mid] < required)
 				{
 					left = mid+1;
 				}
@@ -41,7 +41,8 @@ class TargetSumUsingBinarySearch
 					right = mid-1;
 				}
 			}
-			return -1;
+			return new int[]{-1, -1};
+			return new int[]{-1, -1};
 		}
 	}
 }
