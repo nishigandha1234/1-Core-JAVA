@@ -32,7 +32,7 @@ class RobotReturnToOrigin
 				right++;
 			}
 			else{
-				return 0;
+				return false;
 			}
 		}
 		return up == down && left == right;
