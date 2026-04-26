@@ -27,7 +27,7 @@ class ThreeSum
 				}
 			}
 		}
-		return new int[]{}; // if no
+		return new int[]{}; // if 
 		return new int[]{}; // if no triplet found
 	}
 }
