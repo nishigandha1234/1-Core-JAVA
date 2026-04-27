@@ -11,17 +11,24 @@ class MoveZerosAtLast
 		{
 			a[i] = sc.nextInt();
 		}
+		int[] ans = new int[a.length];
+		int k = 0;
+		
 		for(int i = 0 ; i < a.length ; i++)
 		{
-			if(a[i] == 0)
+			if(a[i] != 0)
 			{
-				int temp = a[i];
-				a[i] = a[i+1];
+				ans[k++] = a[i];
 			}
 		}
-		for(int i = 0 ; i < a.length ; i++)
+		for(int i = k ; i < ans.length ; i++)
 		{
-			System.out.print(a[i] + " ");
+			ans[k++] = 0;
+		}
+		
+		for(int i = 0 ; i < ans.length ; i++)
+		{
+			System.out.print(ans[i] + " ");
 		}
 	}
 }

@@ -11,6 +11,10 @@ class Q31AddZeroTo1stLast
 		{
 			a[i] = sc.nextInt();
 		}
-		
+		System.out.println("After Removing Zeros : ");
+		for(int i = 0 ; i < k ; i++)
+		{
+			System.out.print(ans[i]+" ");
+		}
 	}
 }

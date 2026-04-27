@@ -5,7 +5,7 @@ class AbundantNumberRange
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Number : ");
+		System.out.println("Enter the Range : ");
 		int n=sc.nextInt();
 		for(int j=1;j<n;j++)
 		{

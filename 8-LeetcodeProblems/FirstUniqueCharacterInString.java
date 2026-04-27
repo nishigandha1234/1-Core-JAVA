@@ -23,7 +23,6 @@ class FirstUniqueCharacterInString
 			}
 			if(count == 1)
 			{
-				System.out.println(s.charAt(i) + " " + count);
 				return i;
 			}
 		}

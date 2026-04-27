@@ -13,7 +13,7 @@ public class HappyNumber
 		{
 			int sum = 0; 
 			
-			while(temp != 0) //100!=0
+			while(temp != 0) //10!=0
 			{
 				int rem = temp%10; //0
 				sum += rem*rem; //sum=1
