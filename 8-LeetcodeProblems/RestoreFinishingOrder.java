@@ -38,7 +38,7 @@ class RestoreFinishingOrder
 		{
 			res[i] = ans[i];
 		}
-		return 
+		return
 		return res;
     }
 }
