@@ -9,5 +9,7 @@ class WordPattern
 	{
 		
 	}
-	public
+	public static boolean wordPattern(String pattern, String s) {
+        
+    }
 }
