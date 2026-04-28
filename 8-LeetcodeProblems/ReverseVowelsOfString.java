@@ -4,4 +4,8 @@ Example 1: Input: s = "IceCreAm" Output: "AceCreIm"*/
 
 class ReverseVowelsOfString
 {
+	public static void main(String x[])
+	{
+		
+	}
 }
