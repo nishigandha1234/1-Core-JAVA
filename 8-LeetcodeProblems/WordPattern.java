@@ -19,5 +19,13 @@ class WordPattern
 		{
 			return false;
 		}
+		
+		for(int i = 0 ; i < pattern.length() ; i++)
+		{
+			for(int j = i+1 ; j < pattern.length() ; j++)
+			{
+				
+			}
+		}
     }
 }
