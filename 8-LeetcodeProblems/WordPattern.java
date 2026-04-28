@@ -11,7 +11,9 @@ class WordPattern
 		String pattern = "abba";
 		System.out.println(wordPattern(pattern, s));
 	}
-	public static boolean wordPattern(String pattern, String s) {
+	public static boolean wordPattern(String pattern, String s) 
+	{
+		
         
     }
 }
