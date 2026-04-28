@@ -9,9 +9,9 @@ class WordPattern
 	{
 		String s = "dog cat cat dog";
 		String pattern = "abba";
-		wordPattern(pattern, s);
+		System.out.println(wordPattern(pattern, s));
 	}
-	public static void wordPattern(String pattern, String s) 
+	public static boolean wordPattern(String pattern, String s) 
 	{
 		String[] ar = s.split(" ");
 		
@@ -40,5 +40,6 @@ class WordPattern
 				}
 			}
 		}
+		return true;
     }
 }
