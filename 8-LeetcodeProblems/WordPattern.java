@@ -24,7 +24,10 @@ class WordPattern
 		{
 			for(int j = i+1 ; j < pattern.length() ; j++)
 			{
-				
+				if(pattern.charAt(i) == pattern.charAt(j))
+				{
+					if(!ar[i][
+				}
 			}
 		}
     }
