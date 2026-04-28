@@ -13,7 +13,7 @@ class WordPattern
 	}
 	public static boolean wordPattern(String pattern, String s) 
 	{
-		
+		String[] ar = s.split(" ");
         
     }
 }
