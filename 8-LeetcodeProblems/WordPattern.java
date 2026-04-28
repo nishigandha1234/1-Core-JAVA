@@ -8,7 +8,8 @@ class WordPattern
 	public static void main(String x[])
 	{
 		String s = "dog cat cat dog";
-		
+		String pattern = "abba";
+		System.out.println(
 	}
 	public static boolean wordPattern(String pattern, String s) {
         
