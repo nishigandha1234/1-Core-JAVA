@@ -14,7 +14,9 @@ class WordPattern
 	public static boolean wordPattern(String pattern, String s) 
 	{
 		String[] ar = s.split(" ");
-		
-        
+		for(int i = 0 ; i < ar.length ; i++)
+		{
+			System.oout.println(ar[i]+" ");
+        }
     }
 }
