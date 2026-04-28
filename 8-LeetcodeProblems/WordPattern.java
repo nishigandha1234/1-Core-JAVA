@@ -26,7 +26,7 @@ class WordPattern
 			{
 				if(pattern.charAt(i) == pattern.charAt(j))
 				{
-					if(!ar[i][
+					if(!ar[i].equals(ar[j])
 				}
 			}
 		}
