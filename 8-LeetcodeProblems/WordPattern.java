@@ -7,6 +7,7 @@ class WordPattern
 {
 	public static void main(String x[])
 	{
+		String s = "dog cat cat dog";
 		
 	}
 	public static boolean wordPattern(String pattern, String s) {
