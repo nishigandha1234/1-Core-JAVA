@@ -9,7 +9,7 @@ class WordPattern
 	{
 		String s = "dog cat cat dog";
 		String pattern = "abba";
-		System.out.println(
+		System.out.println(wordPattern(pattern, s));
 	}
 	public static boolean wordPattern(String pattern, String s) {
         
