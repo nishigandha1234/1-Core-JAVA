@@ -5,5 +5,8 @@ Example 1: Input: pattern = "abba", s = "dog cat cat dog" Output: true*/
 
 class WordPattern
 {
-	public 
+	public static void main(String x[])
+	{
+		
+	}
 }
