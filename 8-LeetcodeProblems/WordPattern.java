@@ -5,4 +5,5 @@ Example 1: Input: pattern = "abba", s = "dog cat cat dog" Output: true*/
 
 class WordPattern
 {
+	public 
 }
