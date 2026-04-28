@@ -15,7 +15,7 @@ class WordPattern
 	{
 		String[] ar = s.split(" ");
 		
-		if(pattern.length() != s.length())
+		if(pattern.length() != ar.length)
 		{
 			return false;
 		}
