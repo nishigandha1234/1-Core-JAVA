@@ -31,6 +31,13 @@ class WordPattern
 						return false;
 					}
 				}
+				else
+				{
+					if(ar[i].equals(ar[j]))
+					{
+						return false;
+					}
+				}
 			}
 		}
     }
