@@ -6,6 +6,6 @@ class ReverseVowelsOfString
 {
 	public static void main(String x[])
 	{
-		
+		String s = "IceCreAm";
 	}
 }
