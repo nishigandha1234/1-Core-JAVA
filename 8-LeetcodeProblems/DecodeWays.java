@@ -40,5 +40,6 @@ class DecodeWays
             prev1 = curr;
         }
         return prev1;
+        return prev1;
     }
 }
