@@ -39,7 +39,7 @@ class DecodeWays
             prev2 = prev1;
             prev1 = curr;
         }
-        re
+        r
         return prev1;
     }
 }
