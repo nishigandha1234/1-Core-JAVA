@@ -14,6 +14,13 @@ class MinColorGetKBlackBlo
 	}
 	public static int minimumRecolors(String blocks, int k) 
 	{
+		int countW = 0;
+		maxW = Integer.MIN_VALUE;
+		
+		for(int i = 0 ; i < k ; i++)
+		{
+			if("W".indexOf(
+		}
         
     }
 }
