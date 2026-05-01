@@ -12,7 +12,8 @@ class MinColorGetKBlackBlo
 		int	k = 7;
 		System.out.println(minimumRecolors(block, k));
 	}
-	public static int minimumRecolors(String blocks, int k) {
+	public static int minimumRecolors(String blocks, int k) 
+	{
         
     }
 }
