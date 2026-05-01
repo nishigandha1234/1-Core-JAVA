@@ -36,7 +36,7 @@ class MinColorGetKBlackBlo
 			{
 				countW--;
 			}
-			max = Math.max(max, co
+			max = Math.max(max, c
 			max = Math.max(max, countW);
 		}
 		return max;
