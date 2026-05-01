@@ -6,4 +6,13 @@ Example 1:Input: blocks = "WBBWWBBWBW", k = 7 Output: 3*/
 
 class MinColorGetKBlackBlo
 {
+	public static void main(String x[])
+	{
+		String blocks = "WBBWWBBWBW";
+		int	k = 7;
+		System.out.println(minimumRecolors(block, k));
+	}
+	public static int minimumRecolors(String blocks, int k) {
+        
+    }
 }
