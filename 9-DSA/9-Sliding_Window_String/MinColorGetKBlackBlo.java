@@ -19,8 +19,25 @@ class MinColorGetKBlackBlo
 		
 		for(int i = 0 ; i < k ; i++)
 		{
-			if("W".indexOf(
+			if("W".indexOf(s.charAt(i)) != -1)
+			{
+				countW++;
+			}
 		}
-        
+        max = countW;
+		
+		for(int i = k ; i < s.length() ; i++)
+		{
+			if("W".indexOf(s.charAt(i)) != -1)
+			{
+				countW++;
+			}
+			if("W".indexOf(s.charAt(i-k)) != -1)
+			{
+				countW--;
+			}
+			max = Math.max(max, countW);
+		}
+		return max;
     }
 }
