@@ -31,9 +31,7 @@ class MaxPointsObtainFromCards
 			{
 				max = sum;
 			}
-		
 		}
-		
 		return max;
     }
 }
