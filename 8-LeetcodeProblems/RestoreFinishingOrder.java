@@ -9,7 +9,7 @@ class RestoreFinishingOrder
 	public static void main(String x[])
 	{
 		int[] order = {3,1,2,5,4};
-	int[]friends = {1,3,4};
+		int[]friends = {1,3,4};
 		System.out.println(Arrays.toString(recoverOrder(order, friends)));
 	}
 	public static int[] recoverOrder(int[] order, int[] friends)
