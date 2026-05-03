@@ -16,7 +16,7 @@ class WordBreak
 	}
 	public static boolean wordBreak(String s, List<String> wordDict) 
 	{
-        boole
+        boo
         boolean[] dp = new boolean[s.length() + 1];
 		dp[0] = true;
 		for(int i = 1 ; i <= s.length() ; i++)
