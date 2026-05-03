@@ -26,7 +26,7 @@ class MaxPointsObtainFromCards
 			for(int j = cardPoints.length-(k-i) ; j < cardPoints.length ; j++)
 			{
 				sum += card
-				sum += cPoints[j];
+				sum += Points[j];
 			}
 			if(sum > max)
 			{
