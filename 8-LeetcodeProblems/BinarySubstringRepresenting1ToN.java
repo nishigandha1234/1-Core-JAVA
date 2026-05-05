@@ -15,7 +15,7 @@ class BinarySubstringRepresenting1ToN
 	{
 		for(int i = 1 ; i <= n ; i++)
 		{
-			String num = Integer.toBi
+			String num = Integer.to
 			String num = Integer.toBinaryString(i);
         
 			if(!s.contains(num))
