@@ -6,6 +6,7 @@ class Shift90Degree
 		Scanner sc = new Scanner(System.in);
 		int[][] ar = new int[3][3];
 		int[][]ans = new int[3][3];
+		
 		int m = ar.length-1;
 		
 		for(int i=0; i < ar.length; i++) //row 
