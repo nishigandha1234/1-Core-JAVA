@@ -18,6 +18,7 @@ class CountIndicesWithOppositeParity
         int odd = 0;
 
         for(int i = n - 1; i >= 0; i--) 
+        for(int i = n - 1; i >= 0; i--) 
 		{
 
             if(nums[i] % 2 == 0) 
