@@ -19,7 +19,6 @@ class CountSquareSumTriples
 			{
 				for(int c = 1 ; c <= n ; c++)
 				{
-					i
 					if(a*a + b*b == c*c)
 					{
 						count++;
