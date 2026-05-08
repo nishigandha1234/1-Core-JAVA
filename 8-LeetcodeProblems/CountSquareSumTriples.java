@@ -26,7 +26,7 @@ class CountSquareSumTriples
 				}
 			}
 		}
-		return count;
+		return 
 		return count;
     }
 }
