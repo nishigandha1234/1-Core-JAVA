@@ -20,7 +20,7 @@ class AnagramThirdLogic
 			count[s2.charAt(i)]--;
 		}
 		boolean flag = true;
-		for(int i = 0 ; i < count
+		for(int i = 0 ; i < coun
 		for(int i = 0 ; i < count.length ; i++)
 		{
 			if(count[i] != 0)
