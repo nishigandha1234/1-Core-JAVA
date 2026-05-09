@@ -1,19 +1,19 @@
-import java.util.Scanner;
 
-class PalindromicString
+public class PalindromicString
 {
 	public static void main(String x[])
 	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the String : ");
-		String str = sc.next();
-		String rev = "" ;
-		
-		for(int i = str.length()-1 ; i >= 0 ; i--)
+		String s = "madam";
+		palindromicString(s);
+	}
+	public static void palindromicString(String s)
+	{
+		String rev = "";
+		for(int i = 0 ; i < s.length() ; i++)
 		{
-			rev += str.charAt(i);
+			rev += s.charAt(i);
 		}
-		if(str.equals(rev))
+		if(s.equals(rev))
 		{
 			System.out.println("Palindromic String");
 		}
