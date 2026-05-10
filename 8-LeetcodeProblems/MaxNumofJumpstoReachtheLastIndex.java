@@ -9,7 +9,7 @@ class MaxNumofJumpstoReachtheLastIndex
 	{
 		int[] nums = [1,3,6,4,1,2];
 		int	target = 2;
-		System.out.println(maximumJumps(nums,targ
+		System.out.println(maximumJumps(nums,tar
 		System.out.println(maximumJumps(nums,target));
 	}
 	public static int maximumJumps(int[] nums, int target) 
