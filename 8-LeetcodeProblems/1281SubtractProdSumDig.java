@@ -5,6 +5,14 @@ Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Re
 
 class 1281SubtractProdSumDig
 {
+	public static void main(String x[])
+	{
+		
+		
+	}
+	public static int subtractProductAndSum(int n) {
+        
+    }
 
 
 }
