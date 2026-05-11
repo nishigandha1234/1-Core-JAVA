@@ -7,12 +7,32 @@ class MaxNumofJumpstoReachtheLastIndex
 {
 	public static void main(String x[])
 	{
-		int[] nums = [1,3,6,4,1,2];
+		int[] nums = {1,3,6,4,1,2};
 		int	target = 2;
 		System.out.println(maximumJumps(nums,target));
 	}
 	public static int maximumJumps(int[] nums, int target) 
 	{
-        
+		int[] dp = new int[nums.length];
+		
+		for(int i = 0 ; i < nums.length ; i++)
+		{
+			dp[i]= -1;
+		}
+		dp[0] = 0;
+		
+        for(int i = 0 ; i < nums.length ; i++)
+		{
+			if(dp[i] == -1) continue;
+			
+			for(int j = i+1; j < nums.length ; j++)
+			{
+				if(Math.abs(nums[j] - nums[i]) <= target)
+				{
+					dp[j] = Math.max(dp[j], dp[i]+1);
+				}
+			}
+		}
+		return dp[nums.length-1];
     }
 }
