@@ -15,7 +15,6 @@ class Pattern56
 		{
 			int n = 1;	
 			
-			for(
 			for(int j = 1 ; j <= 9 ; j++)
 			{
 				if(j>=6-i && j<=4+i)
