@@ -8,7 +8,7 @@ class RotateString
 	{
 		String s = "abcde";
 		String goal = "cdeab";
-		System.out.println(rotat
+		System.out.println(rota
 		System.out.println(rotateString(s,goal));
 	}
 	public static boolean rotateString(String s, String goal) 
