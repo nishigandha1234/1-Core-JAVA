@@ -8,7 +8,8 @@ class MultiplyStrings
 	{
 		String num1 = "2";
 		String num2 = "3";
+		
 	}
-
+	public 
 
 }
