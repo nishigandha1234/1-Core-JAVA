@@ -7,6 +7,7 @@ class MultiplyStrings
 	public static void main(String x[])
 	{
 		String num1 = "2";
+		String num2 = "3";
 	}
 
 
