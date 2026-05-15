@@ -10,6 +10,8 @@ class MultiplyStrings
 		String num2 = "3";
 		
 	}
-	public 
+	public static  String multiply(String num1, String num2) {
+        
+    }
 
 }
