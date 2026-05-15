@@ -4,7 +4,10 @@ Example 1: Input: num1 = "2", num2 = "3" Output: "6"*/
 
 class MultiplyStrings
 {
-
+	public static void main(String x[])
+	{
+		
+	}
 
 
 }
