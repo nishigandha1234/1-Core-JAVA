@@ -5,7 +5,7 @@ public class Pattern1
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Nu
+		System.out.println("Enter the
 		System.out.println("Enter the Number : ");
 		int n =sc.nextInt();
 		
