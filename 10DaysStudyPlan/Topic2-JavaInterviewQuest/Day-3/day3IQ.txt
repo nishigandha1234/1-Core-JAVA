@@ -1,0 +1,234 @@
+1. What is a function (method) in Java, and why is it used in programming?
+
+Answer:
+In Java, a function is called a method. A method is a block of code that performs a specific task and can be called whenever needed.
+
+Syntax:
+returnType methodName()
+{
+    // code
+}
+Example:
+void greet()
+{
+   System.out.println("Hello");
+}
+Why Used?
+Reusability of code
+Better readability
+Reduces duplication
+Easy debugging
+Modular programming
+Interview Answer:
+
+“A method is a reusable block of code used to perform a specific task. It helps in modularity, code reuse, and maintainability.”
+
+2. What is the difference between a method with return type and a void method in Java?
+Return Type Method
+
+Returns a value after execution.
+
+int add(int a, int b)
+{
+   return a + b;
+}
+Void Method
+
+Does not return any value.
+
+void show()
+{
+   System.out.println("Hello");
+}
+Difference Table
+Basis	Return Type Method	Void Method
+Returns Value	Yes	No
+Uses return	Required	Optional
+Example	int sum()	void print()
+Interview Answer:
+
+“A return type method gives back a value, while a void method only performs an action.”
+
+3. What are method parameters, and how are arguments passed to a function in Java?
+
+Parameters are variables in method definition.
+
+Arguments are actual values passed during method call.
+
+Example:
+void add(int x, int y)   // parameters
+{
+   System.out.println(x + y);
+}
+
+add(10,20);             // arguments
+How Passed in Java?
+
+Java uses pass by value.
+
+Primitive values → copy of value passed
+Object references → copy of reference passed
+Interview Answer:
+
+“Parameters are placeholders in method declaration, and arguments are actual values passed during call. Java uses pass-by-value.”
+
+4. What is method overloading in Java, and how is it different from method overriding?
+Method Overloading
+
+Same method name with different parameter list in same class.
+
+int add(int a,int b)
+int add(int a,int b,int c)
+Method Overriding
+
+Child class redefines parent method.
+
+class A{
+   void show(){}
+}
+
+class B extends A{
+   void show(){}
+}
+Difference Table
+Basis	Overloading	Overriding
+Class	Same class	Parent-child
+Parameters	Different	Same
+Runtime/Compile	Compile time	Runtime
+Inheritance Needed	No	Yes
+Interview Answer:
+
+“Overloading means same method name with different parameters. Overriding means child class provides new implementation of inherited method.”
+
+5. What is recursion in Java, and how does a recursive function work?
+
+Recursion is when a method calls itself until a stopping condition is reached.
+
+Example: Factorial
+int fact(int n)
+{
+   if(n==1)
+      return 1;
+
+   return n * fact(n-1);
+}
+Working:
+fact(4)
+= 4 * fact(3)
+= 4 * 3 * fact(2)
+= 4 * 3 * 2 * fact(1)
+= 24
+Interview Answer:
+
+“Recursion is a technique where a method calls itself repeatedly until a base case stops further calls.”
+
+6. What are the advantages and disadvantages of using recursion in Java programs?
+Advantages
+Cleaner code for tree/graph problems
+Natural for divide-and-conquer
+Easy to understand mathematical problems
+Less code in some cases
+Disadvantages
+More memory (call stack)
+Slower than loops sometimes
+Risk of StackOverflowError
+Harder debugging
+Interview Answer:
+
+“Recursion makes some problems elegant and simpler, but it can consume extra memory and may cause stack overflow if not controlled.”
+
+7. What is a base case in recursion, and why is it important?
+
+Base case is the condition that stops recursive calls.
+
+Example:
+if(n==0)
+   return 1;
+Why Important?
+
+Without base case:
+
+Infinite recursion
+StackOverflowError
+Interview Answer:
+
+“A base case is the stopping condition in recursion. It is essential to terminate recursive calls and avoid infinite recursion.”
+
+8. What is dynamic programming, and how is it different from recursion?
+
+Dynamic Programming (DP) is an optimization technique used when problems have:
+
+Overlapping subproblems
+Optimal substructure
+
+It stores previously computed results to avoid repeated work.
+
+Example:
+
+Fibonacci numbers.
+
+Recursion:
+fib(5) calls fib(4), fib(3) repeatedly
+DP:
+
+Store answers once and reuse.
+
+Difference Table
+Basis	Recursion	Dynamic Programming
+Repeated Calculations	Yes	Avoided
+Speed	Slower	Faster
+Memory	Stack	Table/Cache
+Optimization	No	Yes
+Interview Answer:
+
+“Dynamic programming is an optimized form of solving recursive-type problems by storing intermediate results.”
+
+9. What are memoization and tabulation in dynamic programming?
+Memoization (Top-Down)
+
+Uses recursion + cache.
+
+Store result when first calculated
+
+Starts from main problem and breaks down.
+
+Tabulation (Bottom-Up)
+
+Uses loop + table.
+
+Build answers from smallest subproblem upward
+Example Fibonacci:
+0,1,1,2,3,5,8
+Difference Table
+Basis	Memoization	Tabulation
+Approach	Top-down	Bottom-up
+Uses Recursion	Yes	No
+Stack Use	Yes	No
+Interview Answer:
+
+“Memoization uses recursion with caching, while tabulation uses iterative table-filling from base cases upward.”
+
+10. How can arrays be passed to functions in Java, and what happens when an array is modified inside a method?
+
+Arrays can be passed as parameters like this:
+
+void show(int arr[])
+{
+}
+Example:
+void change(int arr[])
+{
+   arr[0] = 100;
+}
+int a[] = {1,2,3};
+change(a);
+System.out.println(a[0]);
+Output:
+100
+Why?
+
+Because array reference is passed by value, but both references point to same array object.
+
+Interview Answer:
+
+“Arrays are passed as arguments like other objects. If elements are modified inside a method, the original array contents are affected.”
