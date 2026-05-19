@@ -21,7 +21,7 @@ class PrimeNumberRange
 			}
 			if(j==num)
 			{
-				System. 
+				System 
 				System.out.print(num+" ");
 			}
 			i++;
