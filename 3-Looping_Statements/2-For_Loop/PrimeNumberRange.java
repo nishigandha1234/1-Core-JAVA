@@ -19,9 +19,8 @@ class PrimeNumberRange
 					break;
 				j++;
 			}
-			if(j==num)
-			{
-				Sys 
+			if(j==num) 
+			{ 
 				System.out.print(num+" ");
 			}
 			i++;
