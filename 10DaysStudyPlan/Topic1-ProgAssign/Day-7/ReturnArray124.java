@@ -13,7 +13,7 @@ class ReturnArray124
 	}
 	public static int[] getArray()
 	{
-		in
+		
 		int[] a = new int[]{10,20,30,40,50};
 		return a;
 	}
