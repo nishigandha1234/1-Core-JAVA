@@ -7,7 +7,6 @@ class ReshapeMatyrix156
 	{
 		int[][] ar = {{1,2,3},{4,5,6},{7,8,9}};
 		int r = 1, c = 4;
-		System.out
 		System.out.println(Arrays.toDeepString(reshapeMat(ar, r, c)));
 	}
 	public static int[][] reshapeMat(int[][]ar, int r, int c)
