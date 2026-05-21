@@ -1,7 +1,7 @@
-/*141 Rotate matrix 90 degrees LC 48 */
+/*142 Search element in sorted matrix LC 74*/
 
 import java.util.Scanner;
-class Rotate90Degree141
+class Search2DMatrix142
 {
 	public static void main(String x[])
 	{
@@ -18,31 +18,21 @@ class Rotate90Degree141
 				ar[i][j] = sc.nextInt();
 			}
 		}
-		int[][] result = rotate90(ar);
-		
-		System.out.println("Array after 90Degree rotation is : ");
-		for(int i = 0 ; i < size ; i++)
-		{
-			for(int j = 0 ; j < size1 ; j++)
-			{
-				System.out.print(result[i][j] +" ");
-			}
-			System.out.println();
-		}
+		System.out.println("Enter the Target element : ");
+		int target = sc.nextInt();
+		System.out.print(search2D(ar,target));
 	}
-	public static int[][] rotate90(int[][]ar)
+	public static boolean search2D(int[][]ar, int target)
 	{
-		int n = ar.length;
-		int[][] ans = new int[n][n];
-		int m = n-1;
+		boolean flag = false;
 		for(int i = 0 ; i < ar.length ; i++)
 		{
 			for(int j = 0 ; j < ar[i].length ; j++)
 			{
-				ans[j][m] = ar[i][j];				
+				if(ar[i][j] == target)
+					return true;
 			}
-			m--;
 		}
-		return ans;
+		return false;
 	}
 }
