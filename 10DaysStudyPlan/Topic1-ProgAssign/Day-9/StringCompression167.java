@@ -21,7 +21,7 @@ class StringCompression167
 
         for(int i = 0; i < ch.length; i++)
         {
-            if(i < ch.length-1 && ch[i] ==
+            if(i < ch.length-1 && ch[i] 
             if(i < ch.length-1 && ch[i] == ch[i+1])
             {
                 count++;
