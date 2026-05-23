@@ -33,7 +33,7 @@ class StringCompression167
                 {
                     String st = count + "";
 
-                    for(int j = 0; j < st.length();
+                    for(int j = 0; j < st.length(
                     for(int j = 0; j < st.length(); j++)
                     {
                         ch[k++] = st.charAt(j);
