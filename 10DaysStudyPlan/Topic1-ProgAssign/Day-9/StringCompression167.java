@@ -9,6 +9,7 @@ class StringCompression167
     {
         String s = "aaabbcccc";
         System.out.println(stringCompress(s));
+        System.out.println(stringCompress(s));
     }
 
     public static String stringCompress(String s)
