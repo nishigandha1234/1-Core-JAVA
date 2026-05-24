@@ -8,7 +8,6 @@ class StringCompression167
     public static void main(String x[])
     {
         String s = "aaabbcccc";
-        System.
         System.out.println(stringCompress(s));
     }
 
