@@ -25,6 +25,7 @@ class ReverseWordsinString
 			else
 			{
 				for(int j = word.length()-1 ; j >= 0 ; j--)
+				for(int j = word.length()-1 ; j >= 0 ; j--)
 				{
 					ans += word.charAt(j);
 				}
