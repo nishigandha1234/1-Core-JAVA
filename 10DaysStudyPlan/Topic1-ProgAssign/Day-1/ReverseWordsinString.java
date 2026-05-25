@@ -24,7 +24,7 @@ class ReverseWordsinString
 			}
 			else
 			{
-				for(int
+				for(
 				for(int j = word.length()-1 ; j >= 0 ; j--)
 				{
 					ans += word.charAt(j);
