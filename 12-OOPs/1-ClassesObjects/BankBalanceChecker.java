@@ -16,7 +16,7 @@ class BankAccount
 	
 	void setInfo()
     {
-        System.out.prin
+        System.out.pri
         System.out.print("Enter accountNumber : ");
         accountNumber = sc.nextInt();
 		
