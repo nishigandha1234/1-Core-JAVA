@@ -15,7 +15,6 @@ class ArrayCompare
 		{
 			sum1 += arr1[i];
 		}
-		S
 		System.out.println("Sum of Array 1 : " + sum1);
 		
 		int sum2 = 0 ;
