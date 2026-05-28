@@ -28,15 +28,13 @@ class SpiralMatrix143
 	}
 	public static boolean spiralMatrix(int[][]ar)
 	{
-		boolean flag = false;
 		for(int i = 0 ; i < ar.length ; i++)
 		{
 			for(int j = 0 ; j < ar[i].length ; j++)
 			{
-				if(ar[i][j] == target)
-					return true;
+				
 			}
 		}
-		return false;
+		return ;
 	}
 }
