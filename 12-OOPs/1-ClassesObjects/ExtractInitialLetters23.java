@@ -13,7 +13,7 @@ class InitialExtractor
 	}
 	String getInitials()
 	{
-		for(int 
+		for(in
 		for(int i = 0 ; i < str.length() ; i++)
 		{
 			char ch = ' ';
