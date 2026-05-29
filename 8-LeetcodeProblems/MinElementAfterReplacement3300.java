@@ -7,7 +7,7 @@ class MinElementAfterReplacement3300
 	public static void main(String x[])
 	{
 		int[] nums = {10,12,13,14};
-		System.out.println(minEleme
+		System.out.println(minElem
 		System.out.println(minElement(nums));
 	}
 	public static int minElement(int[] nums) 
