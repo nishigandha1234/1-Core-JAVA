@@ -14,6 +14,7 @@ class SumofDigitsString1945
 		//minElement(nums);
 	}
 	public static int getLucky(String s, int k) 
+	public static int getLucky(String s, int k) 
 	{
         
     }
