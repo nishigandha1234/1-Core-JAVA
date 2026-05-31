@@ -13,7 +13,7 @@ class SumofDigitsString1945
 		System.out.println(minElement(nums));
 		//minElement(nums);
 	}
-	public s
+	public
 	public static int getLucky(String s, int k) 
 	{
         
