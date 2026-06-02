@@ -21,7 +21,6 @@ class SumofDigitsString1945
 		{
 			ans += (s.charAt(i) - 'a' + 1);
 		}
-		for(in
 		for(int i = 0 ; i < ans.length() ; i++)
 		{
 			sum += ans.charAt(i) - '0';
