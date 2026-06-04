@@ -10,7 +10,6 @@ class SumofDigitsString1945
 	{
 		String s = "iiii";
 		int	k = 1;
-		Sy
 		System.out.println(getLucky(s, k));
 	}
 	public static int getLucky(String s, int k) 
