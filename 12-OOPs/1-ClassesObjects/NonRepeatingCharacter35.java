@@ -39,7 +39,7 @@ public class NonRepeatingCharacter35
 {
 	public static void main(String x[])
 	{
-		NonRepeatingCharacter r1 = new NonRepeatingCharact
+		NonRepeatingCharacter r1 = new NonRepeatingChara
 		NonRepeatingCharacter r1 = new NonRepeatingCharacter();
 		r1.setStrings("aabbcdde");
 		System.out.println(r1.getFirstNonRepeating());
