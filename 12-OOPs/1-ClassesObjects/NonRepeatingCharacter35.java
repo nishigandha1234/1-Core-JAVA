@@ -12,31 +12,37 @@ Output:
 
 class NonRepeatingCharacter
 {
-	private String s1; 
-	private String s2; 
+	private String str; 
 	
-	void setStrings(String s1, String s2)
+	void setString(String str)
 	{
-		this.s1 = s1;
-		this.s2 = s2;
+		this.str = str;
 	}
-	boolean isRotation()
+	char getFirstNonRepeating()
 	{
-		String ans = "";
-		if((s1+s1).contains(s2))
+		int count = 1;
+		
+		for(int i = 0 ; i < str.length() ; i++)
 		{
-			return true;
+			for(int j = i+1 ; j < str.length() ; j++)
+			{
+				if(str.charAt(i) == str.charAt(j))
+				{
+					count++;
+				}
+			}
 		}
-		return false;
+		return '/0';
 	}
 }
 public class NonRepeatingCharacter35
 {
 	public static void main(String x[])
 	{
+		NonRepeatingCharacter r1 = new NonRepeatingCharacter(
 		NonRepeatingCharacter r1 = new NonRepeatingCharacter();
-		r1.setStrings( "ABCD", "CDAB");
-		System.out.println(r1.isRotation());
+		r1.setStrings("aabbcdde");
+		System.out.println(r1.getFirstNonRepeating());
 	}
 }
 
