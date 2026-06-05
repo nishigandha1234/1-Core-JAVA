@@ -13,10 +13,16 @@ class InitialExtractor
 	}
 	String getInitials()
 	{
+		String ans = "";
 		for(int i = 0 ; i < str.length() ; i++)
 		{
-			char ch = ' ';
+			char ch = str.charAt(i);
+			if(i == 0 || str.charAt(i-1) == ' ')
+			{
+				ans += ch;
+			}
 		}
+		return ans;
 	}
 }
 public class ExtractInitialLetters23
