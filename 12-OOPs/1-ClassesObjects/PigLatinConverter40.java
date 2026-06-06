@@ -21,7 +21,7 @@ class PigLatinConverter
     String convertPigLatin()
     {
 		String ans = "";
-		for(int i = 1 ; i < str.le
+		for(int i = 1 ; i < str.l
 		for(int i = 1 ; i < str.length() ; i++)
 		{
 			char ch = str.charAt(i);
