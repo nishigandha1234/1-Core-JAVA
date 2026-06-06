@@ -48,12 +48,10 @@ class StringCompression
 			}
 		}
 		char[] temp = new char[k];
-		
 		for(int i = 0 ; i < k ; i++)
 		{
 			temp[i] = ch[i];
 		}
-		
 		String s = new String(temp);
 		return s;
 	}

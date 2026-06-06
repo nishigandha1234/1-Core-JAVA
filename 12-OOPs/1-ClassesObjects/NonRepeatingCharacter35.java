@@ -20,19 +20,23 @@ class NonRepeatingCharacter
 	}
 	char getFirstNonRepeating()
 	{
-		int count = 1;
 		
 		for(int i = 0 ; i < str.length() ; i++)
 		{
-			for(int j = i+1 ; j < str.length() ; j++)
+			int count = 0;
+			for(int j = 0 ; j < str.length() ; j++)
 			{
 				if(str.charAt(i) == str.charAt(j))
 				{
 					count++;
 				}
 			}
+			if(count == 1)
+			{
+				return str.charAt(i);
+			}
 		}
-		return '/0';
+		return '0';
 	}
 }
 public class NonRepeatingCharacter35
@@ -40,7 +44,7 @@ public class NonRepeatingCharacter35
 	public static void main(String x[])
 	{
 		NonRepeatingCharacter r1 = new NonRepeatingCharacter();
-		r1.setStrings("aabbcdde");
+		r1.setString("aabbcdde");
 		System.out.println(r1.getFirstNonRepeating());
 	}
 }
