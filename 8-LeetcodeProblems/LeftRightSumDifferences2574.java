@@ -7,37 +7,38 @@ Example 1:Input: nums = [10,4,8,3] Output: [15,1,11,22]
 Explanation: The array leftSum is [0,10,14,22] and the array rightSum is [15,11,3,0].
 The array answer is [|0 - 15|,|10 - 11|,|14 - 3|,|22 - 0|] = [15,1,11,22].*/
 
-
+import java.util.*;
 class LeftRightSumDifferences2574
 {
 	public static void main(String x[])
 	{
 		int[] nums = {10,4,8,3};
-		System.out.println(leftRightDifference(nums));
+		System.out.println(Arrays.toString(leftRightDifference(nums)));
 	}
 	public static int[] leftRightDifference(int[] nums) 
 	{
 		int[] leftSum  = new int[nums.length];
 		int[] rightSum = new int[nums.length];
+		int[] ans = new int[nums.length];
+		
+		int s1 = 0 ;
+		for(int j = 1 ; j < nums.length ; j++)
+		{
+			s1+=nums[j-1];
+			leftSum[j] = s1;
+		}
+		int s2 = 0 ;
+		for(int j = nums.length-2 ; j >= 0  ; j--)
+		{
+			s2+=nums[j+1];
+			rightSum[j] = s2;
+		}
 		
 		for(int i = 0 ; i < nums.length ; i++)
 		{
-			leftSum[0] = 0;
-			rightSum[rightSum.length-1] = 0;
-			
-			for(int j = 1 ; j < nums.length ; j++)
-			{
-				leftSum[j] = nums[i]+nums[j];
-			}
-			for(int j = nums.length-1 ; j > 0  ; j--)
-			{
-				rightSum[j] = nums[i]+nums[j];
-			}
+			int diff = Math.abs(leftSum[i]-rightSum[i]);
+			ans[i] = diff;
 		}
-		for(int i = 0 ; i < leftSum.length ; i++)
-		{
-			System.out.print(leftSum[i]);
-		}
-		return rightSum;
+		return ans;
     }
 }
