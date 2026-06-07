@@ -20,7 +20,7 @@ class RemoveDuplicate
 				}
 			}
 		}
-		for(int i = 0 ; i
+		for(int i = 0 ;
 		for(int i = 0 ; i < ans.length ; i++)
 		{
 			System.out.print(ans[i]+" ");
