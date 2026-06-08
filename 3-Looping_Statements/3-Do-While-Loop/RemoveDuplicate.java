@@ -11,7 +11,7 @@ class RemoveDuplicate
 		{
 			boolean flag = false;
 			
-			for(int j = 0 ; j < k ;
+			for(int j = 0 ; j < k 
 			for(int j = 0 ; j < k ; j++)
 			{
 				if(a[i] == ans[j])
