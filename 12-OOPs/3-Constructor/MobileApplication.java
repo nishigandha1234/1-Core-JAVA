@@ -13,7 +13,7 @@ class Mobile
 	{
 		this.mobileId = mobileId;
 		this.mobileName = mobileName;
-		this.price = pric
+		this.price = pr
 		this.price = price - (price* 10/100);
 	}
 	Mobile(int mobileId, String mobileName, int price)
