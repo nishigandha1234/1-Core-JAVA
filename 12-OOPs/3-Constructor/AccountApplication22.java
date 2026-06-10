@@ -9,7 +9,7 @@ class Account
 	private long accountNumber;
 	private int balance;
 	
-	Account(long accountN
+	Account(long account
 	Account(long accountNumber, String name, int balance)
 	{
 		this.accountNumber = accountNumber;
