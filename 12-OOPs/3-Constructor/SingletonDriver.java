@@ -20,7 +20,7 @@ public class SingletonDriver
 	public static void main(String x[])
 	{
 		Singleton s1 = Singleton.getInstance();
-		Single
+		Sing
 		Singleton s2 = Singleton.getInstance();
 		
 		System.out.println(s1 == s2);
