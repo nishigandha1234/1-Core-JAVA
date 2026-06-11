@@ -8,7 +8,6 @@ class Account
 	private String name;
 	private long accountNumber;
 	private int balance;
-	
 
 	Account(long accountNumber, String name, int balance)
 	{
@@ -50,6 +49,6 @@ public class AccountApplication22
 		System.out.println("Deposit Amount : ");
 		int amount = sc.nextInt();
 		
-		System.out.println(" Updated Balance : " + (amount+a1.getBalance())cmdcmd);
+		System.out.println(" Updated Balance : " + (amount+a1.getBalance()));
 	}
 }
