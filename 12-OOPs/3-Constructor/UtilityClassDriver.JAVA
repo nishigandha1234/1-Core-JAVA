@@ -9,7 +9,7 @@ class UtilityClass
 	}
 	static void display()
 	{
-		System.out.println("I am display Me
+		System.out.println("I am display M
 		System.out.println("I am display Method");
 	}
 }
