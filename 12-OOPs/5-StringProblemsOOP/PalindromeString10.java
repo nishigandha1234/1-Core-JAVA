@@ -14,7 +14,6 @@ class PalindromeString10
 		if(word.equals(rev))
 			System.out.println("String is Palindrome ");
 		else
-			System.out.pri
 			System.out.println("String is NOT Palindrome ");
 	}
 }
