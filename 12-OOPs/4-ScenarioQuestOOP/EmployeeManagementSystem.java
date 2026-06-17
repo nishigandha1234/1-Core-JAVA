@@ -12,7 +12,7 @@ Input: Increase Rahul's salary.
 Expected: Only Rahul's salary changes.
 Test Case 3
 Input: Change company name. 
-Expected: All employees display the new comp
+Expected: All employees display the new co
 Expected: All employees display the new company name.
 */
 
