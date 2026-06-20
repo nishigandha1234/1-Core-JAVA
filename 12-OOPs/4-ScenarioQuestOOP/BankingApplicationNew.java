@@ -9,7 +9,7 @@ class Banking
 	}
 
 }
-public class BankingAppl
+public class BankingA
 public class BankingApplication
 {
 	Banking b1 = new Banking();
