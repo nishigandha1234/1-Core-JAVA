@@ -10,6 +10,7 @@ class Banking
 
 }
 public class BankingApplication
+public class BankingApplication
 {
 	Banking b1 = new Banking();
 
