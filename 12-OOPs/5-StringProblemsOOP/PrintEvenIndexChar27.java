@@ -1,20 +1,19 @@
-/*21. Find the largest character in a string.*/
+/*27. Print characters at even indexes.*/
 
 import java.util.Scanner;
-class FindLargestCharacter21
+class PrintEvenIndexChar27
 {
 	public static void main(String x[])
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String : ");
 		String s = sc.next();
-		char largest = s.charAt(0);
+		
 		for(int i = 0 ; i < s.length() ; i++)
 		{
 			char ch = s.charAt(i);
-			if(ch > largest)
-				largest = ch;
+			if(i % 2 == 0)
+				System.out.print(ch+" ");
 		}
-		System.out.println("Largest : "+largest);
 	}
 }
