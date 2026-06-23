@@ -7,6 +7,7 @@ class ConvertSentenceSnakecase
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String : ");
+		System.out.println("Enter the String : ");
 		String s = sc.nextLine(); 
 		String ans = "";
 		for(int i = 0 ; i < s.length() ; i++)
