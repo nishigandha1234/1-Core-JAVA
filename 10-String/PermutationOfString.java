@@ -10,6 +10,7 @@ class PermutationOfString
 	{
 		if(s.length() == 0)
 		{
+			System.out.println(ans
 			System.out.println(ans);
 			return ;
 		}
