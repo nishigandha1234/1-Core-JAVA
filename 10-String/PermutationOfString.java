@@ -9,7 +9,7 @@ class PermutationOfString
 	public static void premutation(String s, String ans)
 	{
 		if(s.length() == 0)
-		
+		{
 			System.out.println(ans);
 			return ;
 		}
