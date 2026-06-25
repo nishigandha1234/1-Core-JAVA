@@ -12,7 +12,7 @@ class MinDeletionsPalindrome
 
         while(left < right)
         {
-            if(s.charAt(left) == s.
+            if(s.charAt(left) =
             if(s.charAt(left) == s.charAt(right))
             {
                 left++;
