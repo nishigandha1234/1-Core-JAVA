@@ -13,7 +13,7 @@ class countMajoritySubarrays
 	public static int countMajoritySubarrays(int[] nums, int target) 
 	{
 		int ans = 0;
-		for(int i = 0 ; i < nums.le
+		for(int i = 0 ; i < nums
 		for(int i = 0 ; i < nums.length ; i++)
 		{
 			int targetCount = 0 ;
