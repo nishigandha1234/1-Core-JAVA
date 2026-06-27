@@ -8,7 +8,7 @@ class TruncateSentence
 	public static void main(String x[])
 	{
 		String s = "Hello how are you Contestant";
-		int	k = 4
+		int	k =
 		int	k = 4;
 		System.out.println(truncateSentence(s,k));		
 	}
