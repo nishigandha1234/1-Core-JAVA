@@ -46,7 +46,6 @@ public class ECommerceApplication
 		int[] quantities1 = {2,3,1};
 		e.placeOrder(products1, quantities1);
 		
-		
 		//case 3
 		String[] products2 = {"Bottle","Charger"};
 		int[] quantities2 = {2,1};

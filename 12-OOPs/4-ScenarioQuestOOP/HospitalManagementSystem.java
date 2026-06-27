@@ -15,8 +15,6 @@ class Hospital
 		System.out.println("Address : "+address);
 		System.out.println("Phone : "+phone);
 	}
-	
-	
 	public void addPatient(String name, int age, String address, String phone, String insuranceDetails, double advanceAmount)
 	{
 		System.out.println("Patient Registered with Insurance : ");

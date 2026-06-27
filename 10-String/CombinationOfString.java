@@ -4,7 +4,7 @@ class CombinationOfString
 {
 	public static void main(String x[])
 	{
-		combination("ABC", "",0 , 2);
+		combination("ABC","",0, 2);
 	}
 	public static void combination(String s, String ans, int i, int r)
 	{

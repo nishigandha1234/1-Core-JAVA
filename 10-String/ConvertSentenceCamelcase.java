@@ -13,7 +13,7 @@ class ConvertSentenceCamelcase
 		
 		for(int i = 1 ; i < words.length ; i++)
 		{
-			ans = ans + Character.toUpperCase(words[i].charAt(0)) + words[i].substring(1).toLowerCase();
+			ans = ans+Character.toUpperCase(words[i].charAt(0))+words[i].substring(1).toLowerCase();
 		}
 		System.out.println("Camel Case : "+ans);
     }
