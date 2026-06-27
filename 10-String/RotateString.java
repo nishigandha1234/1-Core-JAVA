@@ -12,7 +12,7 @@ class RotateString
 	}
 	public static boolean rotateString(String s, String goal) 
 	{
-        if(s.length()== goal.length() && (s+s).contains(goal))
+        if(s.length() == goal.length() && (s+s).contains(goal))
 		{	
 			return true;
 		}
