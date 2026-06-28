@@ -6,7 +6,6 @@ class SmallestIndex3550
 {
 	public static void main(String x[])
 	{
-		int[
 		int[] nums = {1,3,2};
 		System.out.println(smallestIndex(nums));
 	}
