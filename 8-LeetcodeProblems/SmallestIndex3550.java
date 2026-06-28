@@ -7,11 +7,11 @@ class SmallestIndex3550
 	public static void main(String x[])
 	{
 		int[] nums = {1,3,2};
+		int[] nums = {1,3,2};
 		System.out.println(smallestIndex(nums));
 	}
 	public static int smallestIndex(int[] nums) 
 	{
-		
         for(int i = 0 ; i < nums.length ; i++)
 		{
 			int temp = nums[i];
