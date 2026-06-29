@@ -9,7 +9,7 @@ class CheckStringStartswithPrefix
 		System.out.println("Enter the String : ");
 		String s = sc.next(); //springboot
 		System.out.println("Enter the Prefix : ");
-		String prefix = sc.next();//springboot
+		String prefix = sc.next();//spring
 		s = s.toLowerCase();
 		prefix = prefix.toLowerCase();
 		
