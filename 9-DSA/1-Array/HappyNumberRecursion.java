@@ -11,7 +11,6 @@ class HappyNumberRecursion
 	{
 		if(num == 1)
 			return true;
-		}
 		int sum = squareSum(num);
 		return isHappy(sum);
 	}
