@@ -5,7 +5,7 @@ class HappyNumberRecursion
 	public static void main(String x[])
 	{
 		int num = 19;
-		System.out.p
+		System
 		System.out.println(isHappy(num));
 	}
 	public static boolean isHappy(int num)
