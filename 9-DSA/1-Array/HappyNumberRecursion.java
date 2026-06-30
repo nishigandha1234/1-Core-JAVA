@@ -11,7 +11,21 @@ class HappyNumberRecursion
 	{
 		if(num == 1)
 		{
-			
+			return true;
 		}
+		int sum = squareSum(num);
+		return isHappy(sum);
+	}
+	public static int squareSum(int num)
+	{
+		int sum = 0 ;
+		
+		while(num != 0)
+		{
+			int rem = nums% 10;
+			sum += rem*rem;
+			num/=10;
+		}
+		return sum;
 	}
 }
