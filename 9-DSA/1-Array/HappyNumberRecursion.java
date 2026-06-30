@@ -10,7 +10,6 @@ class HappyNumberRecursion
 	public static boolean isHappy(int num)
 	{
 		if(num == 1)
-		
 			return true;
 		}
 		int sum = squareSum(num);
