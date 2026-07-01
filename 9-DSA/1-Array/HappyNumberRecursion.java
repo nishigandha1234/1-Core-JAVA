@@ -20,7 +20,7 @@ class HappyNumberRecursion
 		
 		while(num != 0)
 		{
-			int rem = nums% 10;
+			int rem = num% 10;
 			sum += rem*rem;
 			num/=10;
 		}
