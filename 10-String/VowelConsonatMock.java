@@ -10,7 +10,7 @@ class VowelConsonatMock
         String[] s = name.split(",");
 
         int total = 0;
-        int total = 0
+        int total
         System.out.println("Matching Names:");
 
         for(int i = 0; i < s.length; i++)
