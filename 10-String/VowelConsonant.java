@@ -3,7 +3,6 @@ class VowelConsonant
 {
 	public static void main(String x[])
 	{
-		Stri
 		String name = "Omkar";
 		if(isString(name))
 		{
