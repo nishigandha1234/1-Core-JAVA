@@ -10,7 +10,7 @@ class PrimeArrayManager {
     public PrimeArrayManager(int[] arr) {
         this.arr = arr;
         prime = new int[arr.length];
-        noPrime = new int[a
+        noPrime = new in
         noPrime = new int[arr.length];
     }
 
