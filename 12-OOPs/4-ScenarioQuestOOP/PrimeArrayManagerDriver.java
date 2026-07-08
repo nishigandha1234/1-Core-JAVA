@@ -11,6 +11,7 @@ class PrimeArrayManager {
         this.arr = arr;
         prime = new int[arr.length];
         noPrime = new int[arr.length];
+        noPrime = new int[arr.length];
     }
 
     boolean isPrime(int num) {
