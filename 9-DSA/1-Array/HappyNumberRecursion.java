@@ -17,10 +17,9 @@ class HappyNumberRecursion
 	public static int squareSum(int num)
 	{
 		int sum = 0 ;
-		
 		while(num != 0)
 		{
-			int rem = num% 10;
+			int rem = num % 10;
 			sum += rem*rem;
 			num/=10;
 		}
