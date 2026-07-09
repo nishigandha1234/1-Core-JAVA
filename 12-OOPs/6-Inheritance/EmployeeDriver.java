@@ -4,7 +4,7 @@ Output Employee Name: Vivek Salary: 30000*/
 
 abstract class Employee
 {
-	abstract void c
+	abstract vo
 	abstract void calculateSalary();
 } 
 class FullTimeEmployee extends Employee
