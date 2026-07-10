@@ -49,7 +49,7 @@ class CollegeStudentGrade extends Student
 			grade = "C";
 		else 
 			grade = "Pass";
-		System.out.println("Grade : "
+		System.out.println("Grade :
 		System.out.println("Grade : "+grade);
 	}
 }
